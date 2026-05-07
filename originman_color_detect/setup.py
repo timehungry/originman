@@ -20,8 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'color_track = originman_color_detect.color_track:main',
-            'color_detect = originman_color_detect.color_detect:main'
+            'color_track_kf = originman_color_detect.color_track_kf:main',
         ],
     },
 )

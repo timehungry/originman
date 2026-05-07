@@ -23,7 +23,7 @@ class TextToSpeechNode(Node):
         dashscope.api_key = self.dashscope_api_key
         self.tts_model = "cosyvoice-v1"
         self.voice = "longcheng"
-        self.audio_device = "plughw:1,0"
+        self.audio_device = "plughw:0,0"
         
         # 创建订阅者和发布者
         self.subscription = self.create_subscription(

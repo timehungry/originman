@@ -34,8 +34,9 @@ class PacketFunction(enum.IntEnum):
     PACKET_FUNC_SBUS = 9  # 航模遥控获取(remote control of model aircraft obtain)
     PACKET_FUNC_OLED = 10 # OLED 显示内容设置(OLED display content setting)
     PACKET_FUNC_RGB = 11 # 设置RGB颜色(set RGB color)
-    PACKET_FUNC_ASR = 12
-    PACKET_FUNC_NONE = 13
+    PACKET_FUNC_NONE = 12
+    PACKET_FUNC_ASR = 13
+    PACKET_FUNC_NUNE = 14
 
 class PacketReportKeyEvents(enum.IntEnum):
     # 按键的不同状态(the different states of key)
@@ -136,9 +137,9 @@ class Board:
         threading.Thread(target=self.recv_task, daemon=True).start()
         time.sleep(0.1)
 
-    def packet_report_asr(self, data):
+    def packet_report_record(self, data):
         try:
-            self.asr_queue.put_nowait(data)
+            self.record_queue.put_nowait(data)
         except queue.Full:
             pass
 
@@ -199,15 +200,6 @@ class Board:
             return None
 
     def get_asr_data(self):
-        if self.enable_recv:
-            try:
-                data = self.asr_queue.get(block=False)
-                return data
-            except queue.Empty:
-                return None
-        else:
-            print('enable reception first!')
-            return None
 
     def get_button(self):
         if self.enable_recv:
@@ -285,7 +277,6 @@ class Board:
 
                 if gamepad_data[5] > 0:
                     axes[3] = gamepad_data[5] / 127
-
                 elif gamepad_data[5] < 0:
                     axes[3] = gamepad_data[5] / 128
             
@@ -490,7 +481,7 @@ class Board:
                 recv_data = self.port.read()
                 if recv_data:
                     for dat in recv_data:
-                        #print("%0.2X "%dat)
+                        # print("%0.2X "%dat)
                         if self.state == PacketControllerState.PACKET_CONTROLLER_STATE_STARTBYTE1:
                             if dat == 0xAA:
                                 self.state = PacketControllerState.PACKET_CONTROLLER_STATE_STARTBYTE2
@@ -590,12 +581,12 @@ if __name__ == "__main__":
     board.enable_reception()
     print("START...")
     # board.set_led(0.1, 0.9, 1)
-    board.set_buzzer(2400, 0.1, 0.9, 1)
-    #board.set_motor_duty([[1, -50], [2, 50], [3, 50], [4, -50]])
+    # board.set_buzzer(2400, 0.1, 0.9, 1)
+    board.set_motor_duty([[1, -50], [2, 50], [3, 50], [4, -50]])
     # board.set_motor_speed([[1, -0.3], [2, 0.3], [3, -0.3], [4, 0.3]])
-    #time.sleep(0.5)
+    time.sleep(0.5)
     # board.set_rgb([[1, 0, 0, 255]])
-    #board.set_motor_duty([[1, 0], [2, 0], [3, 0], [4, 0]])
+    board.set_motor_duty([[1, 0], [2, 0], [3, 0], [4, 0]])
     # board.set_motor_speed([[1, 0], [2, 0], [3, 0], [4, 0]])
     # bus_servo_test(board)
     # pwm_servo_test(board)
@@ -603,9 +594,9 @@ if __name__ == "__main__":
     # board.set_oled_text(2, "IP:192.168.149.1")
     while True:
         try:
-            res = board.get_imu()
-            if res is not None:
-                print(res)
+            # res = board.get_imu()
+            # if res is not None:
+                # print(res)
             # res = board.get_button()
             # if res is not None:
                 # print(res)
@@ -619,9 +610,7 @@ if __name__ == "__main__":
             res = board.get_battery()
             if res is not None:
                 print(res)
-            res = board.get_asr_data()
-            if res is not None:
-                print(res)
-            time.sleep(0.01)
+            time.sleep(0.001)
         except KeyboardInterrupt:
             break
+

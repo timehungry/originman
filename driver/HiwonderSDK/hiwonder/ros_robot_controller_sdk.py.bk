@@ -21,12 +21,12 @@ class PacketControllerState(enum.IntEnum):
     PACKET_CONTROLLER_STATE_CHECKSUM = 6
 
 class PacketFunction(enum.IntEnum):
-    # 可通过串口实现的控制功能(control function realized through interface)
+    # 可通过串口实现的控制功能(control function realized by interface)
     PACKET_FUNC_SYS = 0
     PACKET_FUNC_LED = 1  # LED控制(LED control)
     PACKET_FUNC_BUZZER = 2  # 蜂鸣器控制(buzzer control)
     PACKET_FUNC_MOTOR = 3  # 电机控制(motor control)
-    PACKET_FUNC_PWM_SERVO = 4  # PWM舵机控制, 板子上从里到外依次为1-4(PWM servo control, with the board numbered from inside to outside as 1-4)
+    PACKET_FUNC_PWM_SERVO = 4  # PWM舵机控制, 板子上从里到外依次为1-4(PWM servo control, from the inside out, the sequence is 1-4)
     PACKET_FUNC_BUS_SERVO = 5  # 总线舵机控制(bus servo control)
     PACKET_FUNC_KEY = 6  # 按键获取(key obtain)
     PACKET_FUNC_IMU = 7  # IMU获取(IMU obtain)
@@ -34,11 +34,10 @@ class PacketFunction(enum.IntEnum):
     PACKET_FUNC_SBUS = 9  # 航模遥控获取(remote control of model aircraft obtain)
     PACKET_FUNC_OLED = 10 # OLED 显示内容设置(OLED display content setting)
     PACKET_FUNC_RGB = 11 # 设置RGB颜色(set RGB color)
-    PACKET_FUNC_ASR = 12
-    PACKET_FUNC_NONE = 13
+    PACKET_FUNC_NONE = 12
 
 class PacketReportKeyEvents(enum.IntEnum):
-    # 按键的不同状态(the different states of key)
+    # 按键的不同状态
     KEY_EVENT_PRESSED = 0x01
     KEY_EVENT_LONGPRESS = 0x02
     KEY_EVENT_LONGPRESS_REPEAT = 0x04
@@ -120,7 +119,6 @@ class Board:
         self.imu_queue = queue.Queue(maxsize=1)
         self.gamepad_queue = queue.Queue(maxsize=1)
         self.sbus_queue = queue.Queue(maxsize=1)
-        self.asr_queue = queue.Queue(maxsize=1)
 
         self.parsers = {
             PacketFunction.PACKET_FUNC_SYS: self.packet_report_sys,
@@ -129,18 +127,11 @@ class Board:
             PacketFunction.PACKET_FUNC_GAMEPAD: self.packet_report_gamepad,
             PacketFunction.PACKET_FUNC_BUS_SERVO: self.packet_report_serial_servo,
             PacketFunction.PACKET_FUNC_SBUS: self.packet_report_sbus,
-            PacketFunction.PACKET_FUNC_PWM_SERVO: self.packet_report_pwm_servo,
-            PacketFunction.PACKET_FUNC_ASR: self.packet_report_asr,
+            PacketFunction.PACKET_FUNC_PWM_SERVO: self.packet_report_pwm_servo
         }
 
         threading.Thread(target=self.recv_task, daemon=True).start()
         time.sleep(0.1)
-
-    def packet_report_asr(self, data):
-        try:
-            self.asr_queue.put_nowait(data)
-        except queue.Full:
-            pass
 
     def packet_report_sys(self, data):
         try:
@@ -196,17 +187,6 @@ class Board:
                 return None
         else:
             # print('enable reception first!')
-            return None
-
-    def get_asr_data(self):
-        if self.enable_recv:
-            try:
-                data = self.asr_queue.get(block=False)
-                return data
-            except queue.Empty:
-                return None
-        else:
-            print('enable reception first!')
             return None
 
     def get_button(self):
@@ -285,7 +265,6 @@ class Board:
 
                 if gamepad_data[5] > 0:
                     axes[3] = gamepad_data[5] / 127
-
                 elif gamepad_data[5] < 0:
                     axes[3] = gamepad_data[5] / 128
             
@@ -356,7 +335,7 @@ class Board:
         self.buf_write(PacketFunction.PACKET_FUNC_MOTOR, data)
 
     def set_oled_text(self, line, text):
-        data = [line, len(text)] # 子命令为 0x01 设置 SSID, 第二个字节是字符串长度，该长度包含'\0'字符串结束符(sub-command is 0x01 set SSID, the second byte is the string length, the length involves '\0' end string)
+        data = [line, len(text)] # 子命令为 0x01 设置 SSID, 第二个字节是字符串长度，该长度包含'\0'字符串结束符(the sub-command is 0x01 to set the SSID. The second byte is the length of the string, including the '\0' string termination character)
         data.extend(bytes(text, encoding='utf-8'))
         self.buf_write(PacketFunction.PACKET_FUNC_OLED, data)
 
@@ -490,7 +469,7 @@ class Board:
                 recv_data = self.port.read()
                 if recv_data:
                     for dat in recv_data:
-                        #print("%0.2X "%dat)
+                        # print("%0.2X "%dat)
                         if self.state == PacketControllerState.PACKET_CONTROLLER_STATE_STARTBYTE1:
                             if dat == 0xAA:
                                 self.state = PacketControllerState.PACKET_CONTROLLER_STATE_STARTBYTE2
@@ -530,8 +509,8 @@ class Board:
                                 data = bytes(self.frame[2:])
                                 if func in self.parsers:
                                     self.parsers[func](data)
-                            else:
-                                print("校验失败")
+                            # else:
+                                # print("校验失败")
                             self.state = PacketControllerState.PACKET_CONTROLLER_STATE_STARTBYTE1
                             continue
             else:
@@ -589,13 +568,13 @@ if __name__ == "__main__":
     board = Board()
     board.enable_reception()
     print("START...")
-    # board.set_led(0.1, 0.9, 1)
+    board.set_led(0.1, 0.9, 1)
     board.set_buzzer(2400, 0.1, 0.9, 1)
-    #board.set_motor_duty([[1, -50], [2, 50], [3, 50], [4, -50]])
+    board.set_motor_duty([[1, -50], [2, 50], [3, 50], [4, -50]])
     # board.set_motor_speed([[1, -0.3], [2, 0.3], [3, -0.3], [4, 0.3]])
-    #time.sleep(0.5)
+    time.sleep(0.5)
     # board.set_rgb([[1, 0, 0, 255]])
-    #board.set_motor_duty([[1, 0], [2, 0], [3, 0], [4, 0]])
+    board.set_motor_duty([[1, 0], [2, 0], [3, 0], [4, 0]])
     # board.set_motor_speed([[1, 0], [2, 0], [3, 0], [4, 0]])
     # bus_servo_test(board)
     # pwm_servo_test(board)
@@ -603,9 +582,9 @@ if __name__ == "__main__":
     # board.set_oled_text(2, "IP:192.168.149.1")
     while True:
         try:
-            res = board.get_imu()
-            if res is not None:
-                print(res)
+            # res = board.get_imu()
+            # if res is not None:
+                # print(res)
             # res = board.get_button()
             # if res is not None:
                 # print(res)
@@ -619,9 +598,7 @@ if __name__ == "__main__":
             res = board.get_battery()
             if res is not None:
                 print(res)
-            res = board.get_asr_data()
-            if res is not None:
-                print(res)
-            time.sleep(0.01)
+            time.sleep(0.001)
         except KeyboardInterrupt:
             break
+

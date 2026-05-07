@@ -14,7 +14,7 @@ class AudioTestNode(Node):
         super().__init__('voice_control_node')
 
         # 音频设备参数
-        self.audio_device = "plughw:1,0"
+        self.audio_device = "plughw:0,0"
 
         # 手动指定 prompt.wav 文件的绝对路径
         self.prompt_file = "/userdata/dev_ws/src/originman/originman_llm_chat/originman_llm_chat/prompt.wav"

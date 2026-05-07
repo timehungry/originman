@@ -20,7 +20,7 @@ class TextToSpeech:
         dashscope.api_key = self.dashscope_api_key
         self.tts_model = "cosyvoice-v1"
         self.voice = "longcheng"
-        self.audio_device = "plughw:1,0"
+        self.audio_device = "plughw:0,0"
         
         self.tts_executor = ThreadPoolExecutor(max_workers=4)
         self.last_spoken_text = None  # Variable to store the last spoken text

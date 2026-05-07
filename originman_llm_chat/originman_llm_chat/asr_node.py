@@ -24,9 +24,9 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 
 class Config:
     def __init__(self):
-        self.dashscope_api_key = "sk-b8989a63c1c243a988ec7668006e3f90"
+        self.dashscope_api_key = "sk-87346da6a89b4332b63f6ba99ce74110"
         self.model = "paraformer-realtime-v2"
-        self.audio_device = "hw:1,0"
+        self.audio_device = "hw:0,0"
         self.channels = 2
         self.input_sample_rate = 48000
         self.output_sample_rate = 16000

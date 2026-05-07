@@ -17,7 +17,7 @@ class VoiceControlNode:
         self.board.enable_reception()
 
         # 音频设备参数
-        self.audio_device = "plughw:1,0"
+        self.audio_device = "plughw:0,0"
 
     def play_audio(self, file_path):
         """播放音频文件"""

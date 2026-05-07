@@ -1,3 +1,4 @@
+dashscope
 noisereduce
 soundfile
 pyaudio

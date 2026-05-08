@@ -1,0 +1,6 @@
+[console_scripts]
+asr_node = originman_llm_chat.asr_node:main
+audio_test_node = originman_llm_chat.audio_test_node:main
+llm_chat_node = originman_llm_chat.llm_chat_node:main
+text_to_speech_node = originman_llm_chat.text_to_speech_node:main
+

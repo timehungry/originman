@@ -1,0 +1,21 @@
+[7.830s] Invoking command in '/userdata/dev_ws/src/originman/originman_kick_ball': PYTHONPATH=/userdata/dev_ws/src/originman/build/originman_kick_ball/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/dev_ws/src/originman/install/originman_kick_ball/lib/python3.10/site-packages:${PYTHONPATH} ROS_DOMAIN_ID=36 /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/originman_kick_ball build --build-base /userdata/dev_ws/src/originman/build/originman_kick_ball/build install --record /userdata/dev_ws/src/originman/build/originman_kick_ball/install.log --single-version-externally-managed install_data
+[9.638s] running egg_info
+[9.643s] writing ../build/originman_kick_ball/originman_kick_ball.egg-info/PKG-INFO
+[9.644s] writing dependency_links to ../build/originman_kick_ball/originman_kick_ball.egg-info/dependency_links.txt
+[9.645s] writing entry points to ../build/originman_kick_ball/originman_kick_ball.egg-info/entry_points.txt
+[9.646s] writing requirements to ../build/originman_kick_ball/originman_kick_ball.egg-info/requires.txt
+[9.647s] writing top-level names to ../build/originman_kick_ball/originman_kick_ball.egg-info/top_level.txt
+[9.658s] reading manifest file '../build/originman_kick_ball/originman_kick_ball.egg-info/SOURCES.txt'
+[9.664s] writing manifest file '../build/originman_kick_ball/originman_kick_ball.egg-info/SOURCES.txt'
+[9.665s] running build
+[9.666s] running build_py
+[9.667s] running install
+[9.669s] running install_lib
+[9.679s] running install_data
+[9.680s] running install_egg_info
+[9.691s] removing '/userdata/dev_ws/src/originman/install/originman_kick_ball/lib/python3.10/site-packages/originman_kick_ball-0.0.0-py3.10.egg-info' (and everything under it)
+[9.693s] Copying ../build/originman_kick_ball/originman_kick_ball.egg-info to /userdata/dev_ws/src/originman/install/originman_kick_ball/lib/python3.10/site-packages/originman_kick_ball-0.0.0-py3.10.egg-info
+[9.699s] running install_scripts
+[9.847s] Installing kick_ball script to /userdata/dev_ws/src/originman/install/originman_kick_ball/lib/originman_kick_ball
+[9.850s] writing list of installed files to '/userdata/dev_ws/src/originman/build/originman_kick_ball/install.log'
+[10.085s] Invoked command in '/userdata/dev_ws/src/originman/originman_kick_ball' returned '0': PYTHONPATH=/userdata/dev_ws/src/originman/build/originman_kick_ball/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/dev_ws/src/originman/install/originman_kick_ball/lib/python3.10/site-packages:${PYTHONPATH} ROS_DOMAIN_ID=36 /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/originman_kick_ball build --build-base /userdata/dev_ws/src/originman/build/originman_kick_ball/build install --record /userdata/dev_ws/src/originman/build/originman_kick_ball/install.log --single-version-externally-managed install_data

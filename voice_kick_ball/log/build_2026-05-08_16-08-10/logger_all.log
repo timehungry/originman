@@ -1,0 +1,104 @@
+[1.940s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'voice_kick_ball']
+[1.941s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['voice_kick_ball'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], bazel_args=None, bazel_task=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, meson_args=[], ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_alias.argument_parser.alias.AliasArgumentDecorator object at 0xffffb2eaebf0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb315d120>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb315d120>>, mixin_verb=('build',))
+[3.456s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.456s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.457s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.457s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.457s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.458s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.458s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/userdata/dev_ws/src/originman/voice_kick_ball'
+[3.459s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.460s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.460s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.460s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.460s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.492s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_python' and name 'voice_kick_ball'
+[3.492s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.492s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.492s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.493s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.493s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.604s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.605s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.631s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /userdata/dev_ws/src/originman/voice_kick_ball/install
+[3.635s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /root/colcon_ws/install
+[3.642s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 20 installed packages in /userdata/dev_ws/install
+[3.647s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 54 installed packages in /opt/tros/humble
+[3.658s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 187 installed packages in /opt/ros/humble
+[3.666s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.985s] Level 5:colcon.colcon_core.verb:set package 'voice_kick_ball' build argument 'bazel_args' from command line to 'None'
+[3.988s] Level 5:colcon.colcon_core.verb:set package 'voice_kick_ball' build argument 'bazel_task' from command line to 'None'
+[3.988s] Level 5:colcon.colcon_core.verb:set package 'voice_kick_ball' build argument 'cmake_args' from command line to 'None'
+[3.989s] Level 5:colcon.colcon_core.verb:set package 'voice_kick_ball' build argument 'cmake_target' from command line to 'None'
+[3.989s] Level 5:colcon.colcon_core.verb:set package 'voice_kick_ball' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.989s] Level 5:colcon.colcon_core.verb:set package 'voice_kick_ball' build argument 'cmake_clean_cache' from command line to 'False'
+[3.989s] Level 5:colcon.colcon_core.verb:set package 'voice_kick_ball' build argument 'cmake_clean_first' from command line to 'False'
+[3.989s] Level 5:colcon.colcon_core.verb:set package 'voice_kick_ball' build argument 'cmake_force_configure' from command line to 'False'
+[3.992s] Level 5:colcon.colcon_core.verb:set package 'voice_kick_ball' build argument 'meson_args' from command line to '[]'
+[3.992s] Level 5:colcon.colcon_core.verb:set package 'voice_kick_ball' build argument 'ament_cmake_args' from command line to 'None'
+[3.992s] Level 5:colcon.colcon_core.verb:set package 'voice_kick_ball' build argument 'catkin_cmake_args' from command line to 'None'
+[3.993s] Level 5:colcon.colcon_core.verb:set package 'voice_kick_ball' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.993s] DEBUG:colcon.colcon_core.verb:Building package 'voice_kick_ball' with the following arguments: {'ament_cmake_args': None, 'bazel_args': None, 'bazel_task': None, 'build_base': '/userdata/dev_ws/src/originman/voice_kick_ball/build/voice_kick_ball', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/userdata/dev_ws/src/originman/voice_kick_ball/install/voice_kick_ball', 'merge_install': False, 'meson_args': [], 'path': '/userdata/dev_ws/src/originman/voice_kick_ball', 'symlink_install': False, 'test_result_base': None}
+[3.994s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.000s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.002s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/userdata/dev_ws/src/originman/voice_kick_ball' with build type 'ament_python'
+[4.003s] Level 1:colcon.colcon_core.shell:create_environment_hook('voice_kick_ball', 'ament_prefix_path')
+[4.041s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.043s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/dev_ws/src/originman/voice_kick_ball/install/voice_kick_ball/share/voice_kick_ball/hook/ament_prefix_path.ps1'
+[4.052s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/userdata/dev_ws/src/originman/voice_kick_ball/install/voice_kick_ball/share/voice_kick_ball/hook/ament_prefix_path.dsv'
+[4.058s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/dev_ws/src/originman/voice_kick_ball/install/voice_kick_ball/share/voice_kick_ball/hook/ament_prefix_path.sh'
+[4.066s] DEBUG:colcon.colcon_ros_domain_id_coordinator.shell.ros_domain_id:Allocated ROS_DOMAIN_ID=71 for '/userdata/dev_ws/src/originman/voice_kick_ball/build/voice_kick_ball'
+[4.067s] INFO:colcon.colcon_core.shell:Skip shell extension 'ros_domain_id' for command environment: 
+[4.067s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.067s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.543s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/userdata/dev_ws/src/originman/voice_kick_ball'
+[6.545s] DEBUG:colcon.colcon_ros_domain_id_coordinator.shell.ros_domain_id:Allocated ROS_DOMAIN_ID=71 for '/userdata/dev_ws/src/originman/voice_kick_ball/build/voice_kick_ball'
+[6.545s] INFO:colcon.colcon_core.shell:Skip shell extension 'ros_domain_id' for command environment: 
+[6.546s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.546s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.173s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/userdata/dev_ws/src/originman/voice_kick_ball': PYTHONPATH=/userdata/dev_ws/src/originman/voice_kick_ball/build/voice_kick_ball/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/dev_ws/src/originman/voice_kick_ball/install/voice_kick_ball/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/voice_kick_ball build --build-base /userdata/dev_ws/src/originman/voice_kick_ball/build/voice_kick_ball/build install --record /userdata/dev_ws/src/originman/voice_kick_ball/build/voice_kick_ball/install.log --single-version-externally-managed install_data
+[11.767s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/userdata/dev_ws/src/originman/voice_kick_ball' returned '0': PYTHONPATH=/userdata/dev_ws/src/originman/voice_kick_ball/build/voice_kick_ball/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/dev_ws/src/originman/voice_kick_ball/install/voice_kick_ball/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/voice_kick_ball build --build-base /userdata/dev_ws/src/originman/voice_kick_ball/build/voice_kick_ball/build install --record /userdata/dev_ws/src/originman/voice_kick_ball/build/voice_kick_ball/install.log --single-version-externally-managed install_data
+[11.792s] Level 1:colcon.colcon_core.environment:checking '/userdata/dev_ws/src/originman/voice_kick_ball/install/voice_kick_ball' for CMake module files
+[11.800s] Level 1:colcon.colcon_core.environment:checking '/userdata/dev_ws/src/originman/voice_kick_ball/install/voice_kick_ball' for CMake config files
+[11.815s] Level 1:colcon.colcon_core.environment:checking '/userdata/dev_ws/src/originman/voice_kick_ball/install/voice_kick_ball/lib'
+[11.816s] Level 1:colcon.colcon_core.environment:checking '/userdata/dev_ws/src/originman/voice_kick_ball/install/voice_kick_ball/bin'
+[11.817s] Level 1:colcon.colcon_core.environment:checking '/userdata/dev_ws/src/originman/voice_kick_ball/install/voice_kick_ball/lib/pkgconfig/voice_kick_ball.pc'
+[11.820s] Level 1:colcon.colcon_core.environment:checking '/userdata/dev_ws/src/originman/voice_kick_ball/install/voice_kick_ball/lib/python3.10/site-packages'
+[11.821s] Level 1:colcon.colcon_core.shell:create_environment_hook('voice_kick_ball', 'pythonpath')
+[11.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/dev_ws/src/originman/voice_kick_ball/install/voice_kick_ball/share/voice_kick_ball/hook/pythonpath.ps1'
+[11.829s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/userdata/dev_ws/src/originman/voice_kick_ball/install/voice_kick_ball/share/voice_kick_ball/hook/pythonpath.dsv'
+[11.831s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/dev_ws/src/originman/voice_kick_ball/install/voice_kick_ball/share/voice_kick_ball/hook/pythonpath.sh'
+[11.835s] Level 1:colcon.colcon_core.environment:checking '/userdata/dev_ws/src/originman/voice_kick_ball/install/voice_kick_ball/bin'
+[11.836s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(voice_kick_ball)
+[11.839s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/dev_ws/src/originman/voice_kick_ball/install/voice_kick_ball/share/voice_kick_ball/package.ps1'
+[11.846s] INFO:colcon.colcon_core.shell:Creating package descriptor '/userdata/dev_ws/src/originman/voice_kick_ball/install/voice_kick_ball/share/voice_kick_ball/package.dsv'
+[11.850s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/dev_ws/src/originman/voice_kick_ball/install/voice_kick_ball/share/voice_kick_ball/package.sh'
+[11.857s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/dev_ws/src/originman/voice_kick_ball/install/voice_kick_ball/share/voice_kick_ball/package.bash'
+[11.863s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/dev_ws/src/originman/voice_kick_ball/install/voice_kick_ball/share/voice_kick_ball/package.zsh'
+[11.868s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/userdata/dev_ws/src/originman/voice_kick_ball/install/voice_kick_ball/share/colcon-core/packages/voice_kick_ball)
+[11.871s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.871s] DEBUG:colcon.colcon_ros_domain_id_coordinator.shell.ros_domain_id:Released ROS_DOMAIN_ID=71 for '/userdata/dev_ws/src/originman/voice_kick_ball/build/voice_kick_ball'
+[11.872s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.873s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[11.873s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.910s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[11.911s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.911s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.912s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.912s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[11.913s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.915s] INFO:colcon.colcon_core.shell:Creating prefix script '/userdata/dev_ws/src/originman/voice_kick_ball/install/local_setup.ps1'
+[11.922s] INFO:colcon.colcon_core.shell:Creating prefix util module '/userdata/dev_ws/src/originman/voice_kick_ball/install/_local_setup_util_ps1.py'
+[11.933s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/userdata/dev_ws/src/originman/voice_kick_ball/install/setup.ps1'
+[11.954s] INFO:colcon.colcon_core.shell:Creating prefix script '/userdata/dev_ws/src/originman/voice_kick_ball/install/local_setup.sh'
+[11.958s] INFO:colcon.colcon_core.shell:Creating prefix util module '/userdata/dev_ws/src/originman/voice_kick_ball/install/_local_setup_util_sh.py'
+[11.963s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/userdata/dev_ws/src/originman/voice_kick_ball/install/setup.sh'
+[11.977s] INFO:colcon.colcon_core.shell:Creating prefix script '/userdata/dev_ws/src/originman/voice_kick_ball/install/local_setup.bash'
+[11.981s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/userdata/dev_ws/src/originman/voice_kick_ball/install/setup.bash'
+[11.992s] INFO:colcon.colcon_core.shell:Creating prefix script '/userdata/dev_ws/src/originman/voice_kick_ball/install/local_setup.zsh'
+[11.996s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/userdata/dev_ws/src/originman/voice_kick_ball/install/setup.zsh'
+[12.008s] INFO:colcon.colcon_core.shell:Creating '/userdata/dev_ws/src/originman/voice_kick_ball/install/spawn_shell.bash'

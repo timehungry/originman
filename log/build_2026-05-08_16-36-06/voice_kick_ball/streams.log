@@ -1,0 +1,28 @@
+[5.099s] Invoking command in '/userdata/dev_ws/src/originman/voice_kick_ball': PYTHONPATH=/userdata/dev_ws/src/originman/build/voice_kick_ball/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/dev_ws/src/originman/install/voice_kick_ball/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/voice_kick_ball build --build-base /userdata/dev_ws/src/originman/build/voice_kick_ball/build install --record /userdata/dev_ws/src/originman/build/voice_kick_ball/install.log --single-version-externally-managed install_data
+[6.891s] running egg_info
+[6.899s] writing ../build/voice_kick_ball/voice_kick_ball.egg-info/PKG-INFO
+[6.900s] writing dependency_links to ../build/voice_kick_ball/voice_kick_ball.egg-info/dependency_links.txt
+[6.901s] writing entry points to ../build/voice_kick_ball/voice_kick_ball.egg-info/entry_points.txt
+[6.902s] writing requirements to ../build/voice_kick_ball/voice_kick_ball.egg-info/requires.txt
+[6.903s] writing top-level names to ../build/voice_kick_ball/voice_kick_ball.egg-info/top_level.txt
+[6.914s] reading manifest file '../build/voice_kick_ball/voice_kick_ball.egg-info/SOURCES.txt'
+[6.920s] writing manifest file '../build/voice_kick_ball/voice_kick_ball.egg-info/SOURCES.txt'
+[6.921s] running build
+[6.921s] running build_py
+[6.922s] copying voice_kick_ball/voice_kick_node.py -> /userdata/dev_ws/src/originman/build/voice_kick_ball/build/lib/voice_kick_ball
+[6.923s] copying voice_kick_ball/kick_ball.py -> /userdata/dev_ws/src/originman/build/voice_kick_ball/build/lib/voice_kick_ball
+[6.924s] running install
+[6.926s] running install_lib
+[6.933s] copying /userdata/dev_ws/src/originman/build/voice_kick_ball/build/lib/voice_kick_ball/voice_kick_node.py -> /userdata/dev_ws/src/originman/install/voice_kick_ball/lib/python3.10/site-packages/voice_kick_ball
+[6.933s] copying /userdata/dev_ws/src/originman/build/voice_kick_ball/build/lib/voice_kick_ball/kick_ball.py -> /userdata/dev_ws/src/originman/install/voice_kick_ball/lib/python3.10/site-packages/voice_kick_ball
+[6.938s] byte-compiling /userdata/dev_ws/src/originman/install/voice_kick_ball/lib/python3.10/site-packages/voice_kick_ball/voice_kick_node.py to voice_kick_node.cpython-310.pyc
+[6.942s] byte-compiling /userdata/dev_ws/src/originman/install/voice_kick_ball/lib/python3.10/site-packages/voice_kick_ball/kick_ball.py to kick_ball.cpython-310.pyc
+[6.957s] running install_data
+[6.957s] running install_egg_info
+[6.969s] removing '/userdata/dev_ws/src/originman/install/voice_kick_ball/lib/python3.10/site-packages/voice_kick_ball-0.0.0-py3.10.egg-info' (and everything under it)
+[6.971s] Copying ../build/voice_kick_ball/voice_kick_ball.egg-info to /userdata/dev_ws/src/originman/install/voice_kick_ball/lib/python3.10/site-packages/voice_kick_ball-0.0.0-py3.10.egg-info
+[6.976s] running install_scripts
+[7.111s] Installing kick_ball script to /userdata/dev_ws/src/originman/install/voice_kick_ball/lib/voice_kick_ball
+[7.111s] Installing voice_kick_node script to /userdata/dev_ws/src/originman/install/voice_kick_ball/lib/voice_kick_ball
+[7.113s] writing list of installed files to '/userdata/dev_ws/src/originman/build/voice_kick_ball/install.log'
+[7.327s] Invoked command in '/userdata/dev_ws/src/originman/voice_kick_ball' returned '0': PYTHONPATH=/userdata/dev_ws/src/originman/build/voice_kick_ball/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/dev_ws/src/originman/install/voice_kick_ball/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/voice_kick_ball build --build-base /userdata/dev_ws/src/originman/build/voice_kick_ball/build install --record /userdata/dev_ws/src/originman/build/voice_kick_ball/install.log --single-version-externally-managed install_data

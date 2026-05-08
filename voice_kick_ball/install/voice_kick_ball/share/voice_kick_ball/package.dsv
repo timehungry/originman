@@ -1,0 +1,8 @@
+source;ros_domain_id.txt
+source;share/voice_kick_ball/hook/pythonpath.ps1
+source;share/voice_kick_ball/hook/pythonpath.dsv
+source;share/voice_kick_ball/hook/pythonpath.sh
+source;ros_domain_id.txt
+source;share/voice_kick_ball/hook/ament_prefix_path.ps1
+source;share/voice_kick_ball/hook/ament_prefix_path.dsv
+source;share/voice_kick_ball/hook/ament_prefix_path.sh

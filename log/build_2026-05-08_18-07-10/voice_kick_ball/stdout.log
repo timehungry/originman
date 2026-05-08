@@ -1,0 +1,19 @@
+running develop
+running egg_info
+writing voice_kick_ball.egg-info/PKG-INFO
+writing dependency_links to voice_kick_ball.egg-info/dependency_links.txt
+writing entry points to voice_kick_ball.egg-info/entry_points.txt
+writing requirements to voice_kick_ball.egg-info/requires.txt
+writing top-level names to voice_kick_ball.egg-info/top_level.txt
+reading manifest file 'voice_kick_ball.egg-info/SOURCES.txt'
+writing manifest file 'voice_kick_ball.egg-info/SOURCES.txt'
+running build_ext
+Creating /userdata/dev_ws/src/originman/install/voice_kick_ball/lib/python3.10/site-packages/voice-kick-ball.egg-link (link to .)
+Installing kick_ball script to /userdata/dev_ws/src/originman/install/voice_kick_ball/lib/voice_kick_ball
+Installing voice_kick_node script to /userdata/dev_ws/src/originman/install/voice_kick_ball/lib/voice_kick_ball
+
+Installed /userdata/dev_ws/src/originman/build/voice_kick_ball
+running symlink_data
+symbolically linking /userdata/dev_ws/src/originman/build/voice_kick_ball/resource/voice_kick_ball -> /userdata/dev_ws/src/originman/install/voice_kick_ball/share/ament_index/resource_index/packages
+symbolically linking /userdata/dev_ws/src/originman/build/voice_kick_ball/package.xml -> /userdata/dev_ws/src/originman/install/voice_kick_ball/share/voice_kick_ball
+symbolically linking /userdata/dev_ws/src/originman/build/voice_kick_ball/launch/voice_kick.launch.py -> /userdata/dev_ws/src/originman/install/voice_kick_ball/share/voice_kick_ball/launch

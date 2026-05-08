@@ -1,0 +1,174 @@
+[0.000000] (-) TimerEvent: {}
+[0.001487] (-) JobUnselected: {'identifier': 'hiwonder'}
+[0.002305] (-) JobUnselected: {'identifier': 'originman_action_imitation'}
+[0.003549] (-) JobUnselected: {'identifier': 'originman_apriltag_detect'}
+[0.004406] (-) JobUnselected: {'identifier': 'originman_audio_control'}
+[0.005300] (-) JobUnselected: {'identifier': 'originman_color_detect'}
+[0.005562] (-) JobUnselected: {'identifier': 'originman_demo'}
+[0.005950] (-) JobUnselected: {'identifier': 'originman_kick_ball'}
+[0.006158] (-) JobUnselected: {'identifier': 'originman_line_follower'}
+[0.006306] (-) JobUnselected: {'identifier': 'originman_teleop_keyboard'}
+[0.006484] (-) JobUnselected: {'identifier': 'originman_transport_lab'}
+[0.006621] (-) JobUnselected: {'identifier': 'pre_rdk_install'}
+[0.006767] (originman_llm_chat) JobQueued: {'identifier': 'originman_llm_chat', 'dependencies': OrderedDict()}
+[0.006914] (voice_kick_ball) JobQueued: {'identifier': 'voice_kick_ball', 'dependencies': OrderedDict()}
+[0.007057] (originman_llm_chat) JobStarted: {'identifier': 'originman_llm_chat'}
+[0.088278] (voice_kick_ball) JobStarted: {'identifier': 'voice_kick_ball'}
+[0.098766] (-) TimerEvent: {}
+[0.200343] (-) TimerEvent: {}
+[0.301273] (-) TimerEvent: {}
+[0.402233] (-) TimerEvent: {}
+[0.503162] (-) TimerEvent: {}
+[0.604098] (-) TimerEvent: {}
+[0.705008] (-) TimerEvent: {}
+[0.805962] (-) TimerEvent: {}
+[0.906842] (-) TimerEvent: {}
+[1.007784] (-) TimerEvent: {}
+[1.108789] (-) TimerEvent: {}
+[1.209790] (-) TimerEvent: {}
+[1.310833] (-) TimerEvent: {}
+[1.411914] (-) TimerEvent: {}
+[1.512868] (-) TimerEvent: {}
+[1.613766] (-) TimerEvent: {}
+[1.714639] (-) TimerEvent: {}
+[1.815577] (-) TimerEvent: {}
+[1.916463] (-) TimerEvent: {}
+[2.017340] (-) TimerEvent: {}
+[2.118310] (-) TimerEvent: {}
+[2.219816] (-) TimerEvent: {}
+[2.320916] (-) TimerEvent: {}
+[2.422119] (-) TimerEvent: {}
+[2.523045] (-) TimerEvent: {}
+[2.623917] (-) TimerEvent: {}
+[2.724834] (-) TimerEvent: {}
+[2.825836] (-) TimerEvent: {}
+[2.926891] (-) TimerEvent: {}
+[3.027856] (-) TimerEvent: {}
+[3.128842] (-) TimerEvent: {}
+[3.229804] (-) TimerEvent: {}
+[3.333958] (-) TimerEvent: {}
+[3.434886] (-) TimerEvent: {}
+[3.535886] (-) TimerEvent: {}
+[3.636961] (-) TimerEvent: {}
+[3.737987] (-) TimerEvent: {}
+[3.838900] (-) TimerEvent: {}
+[3.939888] (-) TimerEvent: {}
+[4.040938] (-) TimerEvent: {}
+[4.141869] (-) TimerEvent: {}
+[4.242776] (-) TimerEvent: {}
+[4.343698] (-) TimerEvent: {}
+[4.444623] (-) TimerEvent: {}
+[4.545582] (-) TimerEvent: {}
+[4.646494] (-) TimerEvent: {}
+[4.747402] (-) TimerEvent: {}
+[4.848352] (-) TimerEvent: {}
+[4.949249] (-) TimerEvent: {}
+[5.050270] (-) TimerEvent: {}
+[5.151593] (-) TimerEvent: {}
+[5.252738] (-) TimerEvent: {}
+[5.353715] (-) TimerEvent: {}
+[5.454625] (-) TimerEvent: {}
+[5.555493] (-) TimerEvent: {}
+[5.656413] (-) TimerEvent: {}
+[5.757451] (-) TimerEvent: {}
+[5.858411] (-) TimerEvent: {}
+[5.959352] (-) TimerEvent: {}
+[6.060267] (-) TimerEvent: {}
+[6.161391] (-) TimerEvent: {}
+[6.262374] (-) TimerEvent: {}
+[6.363288] (-) TimerEvent: {}
+[6.464317] (-) TimerEvent: {}
+[6.565263] (-) TimerEvent: {}
+[6.666180] (-) TimerEvent: {}
+[6.767171] (-) TimerEvent: {}
+[6.868086] (-) TimerEvent: {}
+[6.969035] (-) TimerEvent: {}
+[7.069914] (-) TimerEvent: {}
+[7.170825] (-) TimerEvent: {}
+[7.271712] (-) TimerEvent: {}
+[7.372735] (-) TimerEvent: {}
+[7.473665] (-) TimerEvent: {}
+[7.574672] (-) TimerEvent: {}
+[7.675689] (-) TimerEvent: {}
+[7.776678] (-) TimerEvent: {}
+[7.877658] (-) TimerEvent: {}
+[7.978860] (-) TimerEvent: {}
+[8.079994] (-) TimerEvent: {}
+[8.124375] (originman_llm_chat) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/originman_llm_chat', 'build', '--build-base', '/userdata/dev_ws/src/originman/build/originman_llm_chat/build', 'install', '--record', '/userdata/dev_ws/src/originman/build/originman_llm_chat/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/userdata/dev_ws/src/originman/originman_llm_chat', 'env': {'PYTHON_BASIC_REPL': '1', 'LANGUAGE': 'en_US.UTF-8', 'USER': 'root', 'SSH_CLIENT': '192.168.127.100 56344 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/root/.vscode-server/cli/servers/Stable-10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/userdata/dev_ws/install/tros_perception_render/lib:/userdata/dev_ws/install/tros_lowpass_filter/lib:/userdata/dev_ws/install/tros_ai_fusion/lib:/userdata/dev_ws/install/tros_ai_fusion_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/root/.vscode-server/cli/servers/Stable-10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/root', 'TERM_PROGRAM_VERSION': '1.117.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/0/vscode-ipc-64d5cf4e-6f66-4acb-ae0c-9aa0b981ed0c.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/cli/servers/Stable-10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/cli/servers/Stable-10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/server/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/root/.vscode-server/extensions/ms-python.debugpy-2026.6.0/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'TROS_DISTRO': 'humble', 'COLCON_PREFIX_PATH': '/root/colcon_ws/install:/userdata/dev_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/tros/humble/bin:/opt/ros/humble/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/cli/servers/Stable-10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/root/.vscode-server/extensions/ms-python.debugpy-2026.6.0/bundled/scripts/noConfigScripts', 'CAM_TYPE': 'usb', 'XDG_RUNTIME_DIR': '/run/user/0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/root/.vscode-server/extensions/ms-python.debugpy-2026.6.0/.noConfigDebugAdapterEndpoints/endpoint-39f80ad34fdae5fb.txt', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/root/.vscode-server/data/User/workspaceStorage/602e8e0744fd70633b85e62f911da5b2-1/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/0/vscode-git-c590c9974e.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/userdata/dev_ws/install/tros_perception_render:/userdata/dev_ws/install/tros_lowpass_filter:/userdata/dev_ws/install/tros_ai_fusion:/userdata/dev_ws/install/tros_ai_fusion_msgs:/userdata/dev_ws/install/pre_rdk_install:/userdata/dev_ws/install/originman_transport_lab:/userdata/dev_ws/install/originman_teleop_keyboard:/userdata/dev_ws/install/originman_llm_chat:/userdata/dev_ws/install/originman_line_follower:/userdata/dev_ws/install/originman_kick_ball:/userdata/dev_ws/install/originman_demo:/userdata/dev_ws/install/originman_color_detect:/userdata/dev_ws/install/originman_audio_control:/userdata/dev_ws/install/originman_apriltag_detect:/userdata/dev_ws/install/originman_action_imitation:/userdata/dev_ws/install/hand_gesture_detection:/userdata/dev_ws/install/hand_lmk_detection:/userdata/dev_ws/install/face_landmarks_detection:/userdata/dev_ws/install/face_age_detection:/root/colcon_ws/install/originman_vision:/opt/tros/humble:/opt/ros/humble', 'ROS_DOMAIN_ID': '65', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/userdata/dev_ws/src/originman/build/originman_llm_chat', 'SSH_CONNECTION': '192.168.127.100 56344 192.168.127.10 22', 'PYTHONPATH': '/userdata/dev_ws/src/originman/build/originman_llm_chat/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/dev_ws/src/originman/install/originman_llm_chat/lib/python3.10/site-packages:/userdata/dev_ws/install/tros_ai_fusion_msgs/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/originman_transport_lab/lib/python3.10/site-packages:/userdata/dev_ws/install/originman_teleop_keyboard/lib/python3.10/site-packages:/userdata/dev_ws/install/originman_llm_chat/lib/python3.10/site-packages:/userdata/dev_ws/install/originman_line_follower/lib/python3.10/site-packages:/userdata/dev_ws/install/originman_kick_ball/lib/python3.10/site-packages:/userdata/dev_ws/install/originman_demo/lib/python3.10/site-packages:/userdata/dev_ws/install/originman_color_detect/lib/python3.10/site-packages:/userdata/dev_ws/install/originman_audio_control/lib/python3.10/site-packages:/userdata/dev_ws/install/originman_apriltag_detect/lib/python3.10/site-packages:/userdata/dev_ws/install/hiwonder/lib/python3.10/site-packages:/root/colcon_ws/install/originman_vision/lib/python3.10/site-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/userdata/dev_ws/install/tros_perception_render:/userdata/dev_ws/install/tros_lowpass_filter:/userdata/dev_ws/install/tros_ai_fusion:/userdata/dev_ws/install/tros_ai_fusion_msgs:/userdata/dev_ws/install/pre_rdk_install:/userdata/dev_ws/install/originman_action_imitation:/userdata/dev_ws/install/hand_gesture_detection:/userdata/dev_ws/install/hand_lmk_detection:/userdata/dev_ws/install/face_landmarks_detection:/userdata/dev_ws/install/face_age_detection'}, 'shell': False}
+[8.146278] (voice_kick_ball) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/voice_kick_ball', 'build', '--build-base', '/userdata/dev_ws/src/originman/build/voice_kick_ball/build', 'install', '--record', '/userdata/dev_ws/src/originman/build/voice_kick_ball/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/userdata/dev_ws/src/originman/voice_kick_ball', 'env': {'PYTHON_BASIC_REPL': '1', 'LANGUAGE': 'en_US.UTF-8', 'USER': 'root', 'SSH_CLIENT': '192.168.127.100 56344 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/root/.vscode-server/cli/servers/Stable-10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/userdata/dev_ws/install/tros_perception_render/lib:/userdata/dev_ws/install/tros_lowpass_filter/lib:/userdata/dev_ws/install/tros_ai_fusion/lib:/userdata/dev_ws/install/tros_ai_fusion_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/root/.vscode-server/cli/servers/Stable-10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/root', 'TERM_PROGRAM_VERSION': '1.117.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/0/vscode-ipc-64d5cf4e-6f66-4acb-ae0c-9aa0b981ed0c.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/cli/servers/Stable-10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/cli/servers/Stable-10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/server/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/root/.vscode-server/extensions/ms-python.debugpy-2026.6.0/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'TROS_DISTRO': 'humble', 'COLCON_PREFIX_PATH': '/root/colcon_ws/install:/userdata/dev_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/tros/humble/bin:/opt/ros/humble/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/cli/servers/Stable-10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/root/.vscode-server/extensions/ms-python.debugpy-2026.6.0/bundled/scripts/noConfigScripts', 'CAM_TYPE': 'usb', 'XDG_RUNTIME_DIR': '/run/user/0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/root/.vscode-server/extensions/ms-python.debugpy-2026.6.0/.noConfigDebugAdapterEndpoints/endpoint-39f80ad34fdae5fb.txt', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/root/.vscode-server/data/User/workspaceStorage/602e8e0744fd70633b85e62f911da5b2-1/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/0/vscode-git-c590c9974e.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/userdata/dev_ws/install/tros_perception_render:/userdata/dev_ws/install/tros_lowpass_filter:/userdata/dev_ws/install/tros_ai_fusion:/userdata/dev_ws/install/tros_ai_fusion_msgs:/userdata/dev_ws/install/pre_rdk_install:/userdata/dev_ws/install/originman_transport_lab:/userdata/dev_ws/install/originman_teleop_keyboard:/userdata/dev_ws/install/originman_llm_chat:/userdata/dev_ws/install/originman_line_follower:/userdata/dev_ws/install/originman_kick_ball:/userdata/dev_ws/install/originman_demo:/userdata/dev_ws/install/originman_color_detect:/userdata/dev_ws/install/originman_audio_control:/userdata/dev_ws/install/originman_apriltag_detect:/userdata/dev_ws/install/originman_action_imitation:/userdata/dev_ws/install/hand_gesture_detection:/userdata/dev_ws/install/hand_lmk_detection:/userdata/dev_ws/install/face_landmarks_detection:/userdata/dev_ws/install/face_age_detection:/root/colcon_ws/install/originman_vision:/opt/tros/humble:/opt/ros/humble', 'ROS_DOMAIN_ID': '34', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/userdata/dev_ws/src/originman/build/voice_kick_ball', 'SSH_CONNECTION': '192.168.127.100 56344 192.168.127.10 22', 'PYTHONPATH': '/userdata/dev_ws/src/originman/build/voice_kick_ball/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/dev_ws/src/originman/install/voice_kick_ball/lib/python3.10/site-packages:/userdata/dev_ws/install/tros_ai_fusion_msgs/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/originman_transport_lab/lib/python3.10/site-packages:/userdata/dev_ws/install/originman_teleop_keyboard/lib/python3.10/site-packages:/userdata/dev_ws/install/originman_llm_chat/lib/python3.10/site-packages:/userdata/dev_ws/install/originman_line_follower/lib/python3.10/site-packages:/userdata/dev_ws/install/originman_kick_ball/lib/python3.10/site-packages:/userdata/dev_ws/install/originman_demo/lib/python3.10/site-packages:/userdata/dev_ws/install/originman_color_detect/lib/python3.10/site-packages:/userdata/dev_ws/install/originman_audio_control/lib/python3.10/site-packages:/userdata/dev_ws/install/originman_apriltag_detect/lib/python3.10/site-packages:/userdata/dev_ws/install/hiwonder/lib/python3.10/site-packages:/root/colcon_ws/install/originman_vision/lib/python3.10/site-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/userdata/dev_ws/install/tros_perception_render:/userdata/dev_ws/install/tros_lowpass_filter:/userdata/dev_ws/install/tros_ai_fusion:/userdata/dev_ws/install/tros_ai_fusion_msgs:/userdata/dev_ws/install/pre_rdk_install:/userdata/dev_ws/install/originman_action_imitation:/userdata/dev_ws/install/hand_gesture_detection:/userdata/dev_ws/install/hand_lmk_detection:/userdata/dev_ws/install/face_landmarks_detection:/userdata/dev_ws/install/face_age_detection'}, 'shell': False}
+[8.180165] (-) TimerEvent: {}
+[8.281295] (-) TimerEvent: {}
+[8.382257] (-) TimerEvent: {}
+[8.483282] (-) TimerEvent: {}
+[8.584188] (-) TimerEvent: {}
+[8.685116] (-) TimerEvent: {}
+[8.785990] (-) TimerEvent: {}
+[8.889583] (-) TimerEvent: {}
+[8.990539] (-) TimerEvent: {}
+[9.091499] (-) TimerEvent: {}
+[9.192515] (-) TimerEvent: {}
+[9.295942] (-) TimerEvent: {}
+[9.396981] (-) TimerEvent: {}
+[9.497920] (-) TimerEvent: {}
+[9.605209] (-) TimerEvent: {}
+[9.706095] (-) TimerEvent: {}
+[9.807031] (-) TimerEvent: {}
+[9.907923] (-) TimerEvent: {}
+[10.008875] (-) TimerEvent: {}
+[10.109839] (-) TimerEvent: {}
+[10.210855] (-) TimerEvent: {}
+[10.311744] (-) TimerEvent: {}
+[10.412610] (-) TimerEvent: {}
+[10.499339] (originman_llm_chat) StdoutLine: {'line': b'running egg_info\n'}
+[10.506710] (voice_kick_ball) StdoutLine: {'line': b'running egg_info\n'}
+[10.511695] (originman_llm_chat) StdoutLine: {'line': b'writing ../build/originman_llm_chat/originman_llm_chat.egg-info/PKG-INFO\n'}
+[10.512693] (-) TimerEvent: {}
+[10.520913] (voice_kick_ball) StdoutLine: {'line': b'writing ../build/voice_kick_ball/voice_kick_ball.egg-info/PKG-INFO\n'}
+[10.523774] (voice_kick_ball) StdoutLine: {'line': b'writing dependency_links to ../build/voice_kick_ball/voice_kick_ball.egg-info/dependency_links.txt\n'}
+[10.524647] (originman_llm_chat) StdoutLine: {'line': b'writing dependency_links to ../build/originman_llm_chat/originman_llm_chat.egg-info/dependency_links.txt\n'}
+[10.525593] (voice_kick_ball) StdoutLine: {'line': b'writing entry points to ../build/voice_kick_ball/voice_kick_ball.egg-info/entry_points.txt\n'}
+[10.526464] (originman_llm_chat) StdoutLine: {'line': b'writing entry points to ../build/originman_llm_chat/originman_llm_chat.egg-info/entry_points.txt\n'}
+[10.527105] (voice_kick_ball) StdoutLine: {'line': b'writing requirements to ../build/voice_kick_ball/voice_kick_ball.egg-info/requires.txt\n'}
+[10.527722] (originman_llm_chat) StdoutLine: {'line': b'writing requirements to ../build/originman_llm_chat/originman_llm_chat.egg-info/requires.txt\n'}
+[10.528318] (voice_kick_ball) StdoutLine: {'line': b'writing top-level names to ../build/voice_kick_ball/voice_kick_ball.egg-info/top_level.txt\n'}
+[10.528908] (originman_llm_chat) StdoutLine: {'line': b'writing top-level names to ../build/originman_llm_chat/originman_llm_chat.egg-info/top_level.txt\n'}
+[10.538265] (originman_llm_chat) StdoutLine: {'line': b"reading manifest file '../build/originman_llm_chat/originman_llm_chat.egg-info/SOURCES.txt'\n"}
+[10.539258] (voice_kick_ball) StdoutLine: {'line': b"reading manifest file '../build/voice_kick_ball/voice_kick_ball.egg-info/SOURCES.txt'\n"}
+[10.544730] (voice_kick_ball) StdoutLine: {'line': b"writing manifest file '../build/voice_kick_ball/voice_kick_ball.egg-info/SOURCES.txt'\n"}
+[10.545768] (originman_llm_chat) StdoutLine: {'line': b"writing manifest file '../build/originman_llm_chat/originman_llm_chat.egg-info/SOURCES.txt'\n"}
+[10.546381] (voice_kick_ball) StdoutLine: {'line': b'running build\n'}
+[10.547043] (voice_kick_ball) StdoutLine: {'line': b'running build_py\n'}
+[10.547624] (originman_llm_chat) StdoutLine: {'line': b'running build\n'}
+[10.548119] (originman_llm_chat) StdoutLine: {'line': b'running build_py\n'}
+[10.548594] (voice_kick_ball) StdoutLine: {'line': b'running install\n'}
+[10.549241] (voice_kick_ball) StdoutLine: {'line': b'running install_lib\n'}
+[10.549796] (originman_llm_chat) StdoutLine: {'line': b'running install\n'}
+[10.551730] (originman_llm_chat) StdoutLine: {'line': b'running install_lib\n'}
+[10.558031] (voice_kick_ball) StdoutLine: {'line': b'running install_data\n'}
+[10.558897] (voice_kick_ball) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.561668] (originman_llm_chat) StdoutLine: {'line': b'running install_data\n'}
+[10.562680] (originman_llm_chat) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.569868] (voice_kick_ball) StdoutLine: {'line': b"removing '/userdata/dev_ws/src/originman/install/voice_kick_ball/lib/python3.10/site-packages/voice_kick_ball-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[10.574088] (voice_kick_ball) StdoutLine: {'line': b'Copying ../build/voice_kick_ball/voice_kick_ball.egg-info to /userdata/dev_ws/src/originman/install/voice_kick_ball/lib/python3.10/site-packages/voice_kick_ball-0.0.0-py3.10.egg-info\n'}
+[10.575034] (originman_llm_chat) StdoutLine: {'line': b"removing '/userdata/dev_ws/src/originman/install/originman_llm_chat/lib/python3.10/site-packages/originman_llm_chat-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[10.578659] (originman_llm_chat) StdoutLine: {'line': b'Copying ../build/originman_llm_chat/originman_llm_chat.egg-info to /userdata/dev_ws/src/originman/install/originman_llm_chat/lib/python3.10/site-packages/originman_llm_chat-0.0.0-py3.10.egg-info\n'}
+[10.580957] (voice_kick_ball) StdoutLine: {'line': b'running install_scripts\n'}
+[10.585009] (originman_llm_chat) StdoutLine: {'line': b'running install_scripts\n'}
+[10.612904] (-) TimerEvent: {}
+[10.711607] (voice_kick_ball) StdoutLine: {'line': b'Installing kick_ball script to /userdata/dev_ws/src/originman/install/voice_kick_ball/lib/voice_kick_ball\n'}
+[10.712529] (voice_kick_ball) StdoutLine: {'line': b'Installing voice_kick_node script to /userdata/dev_ws/src/originman/install/voice_kick_ball/lib/voice_kick_ball\n'}
+[10.713132] (-) TimerEvent: {}
+[10.714422] (voice_kick_ball) StdoutLine: {'line': b"writing list of installed files to '/userdata/dev_ws/src/originman/build/voice_kick_ball/install.log'\n"}
+[10.727037] (originman_llm_chat) StdoutLine: {'line': b'Installing asr_node script to /userdata/dev_ws/src/originman/install/originman_llm_chat/lib/originman_llm_chat\n'}
+[10.727986] (originman_llm_chat) StdoutLine: {'line': b'Installing audio_test_node script to /userdata/dev_ws/src/originman/install/originman_llm_chat/lib/originman_llm_chat\n'}
+[10.728922] (originman_llm_chat) StdoutLine: {'line': b'Installing llm_chat_node script to /userdata/dev_ws/src/originman/install/originman_llm_chat/lib/originman_llm_chat\n'}
+[10.729903] (originman_llm_chat) StdoutLine: {'line': b'Installing text_to_speech_node script to /userdata/dev_ws/src/originman/install/originman_llm_chat/lib/originman_llm_chat\n'}
+[10.733647] (originman_llm_chat) StdoutLine: {'line': b"writing list of installed files to '/userdata/dev_ws/src/originman/build/originman_llm_chat/install.log'\n"}
+[10.813399] (-) TimerEvent: {}
+[10.914373] (-) TimerEvent: {}
+[10.936047] (voice_kick_ball) CommandEnded: {'returncode': 0}
+[11.014673] (-) TimerEvent: {}
+[11.050536] (voice_kick_ball) JobEnded: {'identifier': 'voice_kick_ball', 'rc': 0}
+[11.057771] (originman_llm_chat) CommandEnded: {'returncode': 0}
+[11.109805] (originman_llm_chat) JobEnded: {'identifier': 'originman_llm_chat', 'rc': 0}
+[11.113238] (-) EventReactorShutdown: {}

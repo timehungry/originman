@@ -1,0 +1,22 @@
+[4.757s] Invoking command in '/userdata/dev_ws/src/originman/voice_kick_ball': PYTHONPATH=/userdata/dev_ws/src/originman/build/voice_kick_ball/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/dev_ws/src/originman/install/voice_kick_ball/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/voice_kick_ball build --build-base /userdata/dev_ws/src/originman/build/voice_kick_ball/build install --record /userdata/dev_ws/src/originman/build/voice_kick_ball/install.log --single-version-externally-managed install_data
+[6.921s] running egg_info
+[6.928s] writing ../build/voice_kick_ball/voice_kick_ball.egg-info/PKG-INFO
+[6.930s] writing dependency_links to ../build/voice_kick_ball/voice_kick_ball.egg-info/dependency_links.txt
+[6.931s] writing entry points to ../build/voice_kick_ball/voice_kick_ball.egg-info/entry_points.txt
+[6.932s] writing requirements to ../build/voice_kick_ball/voice_kick_ball.egg-info/requires.txt
+[6.932s] writing top-level names to ../build/voice_kick_ball/voice_kick_ball.egg-info/top_level.txt
+[6.943s] reading manifest file '../build/voice_kick_ball/voice_kick_ball.egg-info/SOURCES.txt'
+[6.949s] writing manifest file '../build/voice_kick_ball/voice_kick_ball.egg-info/SOURCES.txt'
+[6.950s] running build
+[6.950s] running build_py
+[6.952s] running install
+[6.953s] running install_lib
+[6.963s] running install_data
+[6.964s] running install_egg_info
+[6.975s] removing '/userdata/dev_ws/src/originman/install/voice_kick_ball/lib/python3.10/site-packages/voice_kick_ball-0.0.0-py3.10.egg-info' (and everything under it)
+[6.978s] Copying ../build/voice_kick_ball/voice_kick_ball.egg-info to /userdata/dev_ws/src/originman/install/voice_kick_ball/lib/python3.10/site-packages/voice_kick_ball-0.0.0-py3.10.egg-info
+[6.983s] running install_scripts
+[7.116s] Installing kick_ball script to /userdata/dev_ws/src/originman/install/voice_kick_ball/lib/voice_kick_ball
+[7.117s] Installing voice_kick_node script to /userdata/dev_ws/src/originman/install/voice_kick_ball/lib/voice_kick_ball
+[7.119s] writing list of installed files to '/userdata/dev_ws/src/originman/build/voice_kick_ball/install.log'
+[7.322s] Invoked command in '/userdata/dev_ws/src/originman/voice_kick_ball' returned '0': PYTHONPATH=/userdata/dev_ws/src/originman/build/voice_kick_ball/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/dev_ws/src/originman/install/voice_kick_ball/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/voice_kick_ball build --build-base /userdata/dev_ws/src/originman/build/voice_kick_ball/build install --record /userdata/dev_ws/src/originman/build/voice_kick_ball/install.log --single-version-externally-managed install_data

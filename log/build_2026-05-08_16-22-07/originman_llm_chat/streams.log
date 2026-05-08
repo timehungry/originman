@@ -1,0 +1,51 @@
+[4.972s] Invoking command in '/userdata/dev_ws/src/originman/originman_llm_chat': PYTHONPATH=/userdata/dev_ws/src/originman/build/originman_llm_chat/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/dev_ws/src/originman/install/originman_llm_chat/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/originman_llm_chat build --build-base /userdata/dev_ws/src/originman/build/originman_llm_chat/build install --record /userdata/dev_ws/src/originman/build/originman_llm_chat/install.log --single-version-externally-managed install_data
+[6.720s] running egg_info
+[6.723s] creating ../build/originman_llm_chat/originman_llm_chat.egg-info
+[6.725s] writing ../build/originman_llm_chat/originman_llm_chat.egg-info/PKG-INFO
+[6.726s] writing dependency_links to ../build/originman_llm_chat/originman_llm_chat.egg-info/dependency_links.txt
+[6.727s] writing entry points to ../build/originman_llm_chat/originman_llm_chat.egg-info/entry_points.txt
+[6.728s] writing requirements to ../build/originman_llm_chat/originman_llm_chat.egg-info/requires.txt
+[6.729s] writing top-level names to ../build/originman_llm_chat/originman_llm_chat.egg-info/top_level.txt
+[6.730s] writing manifest file '../build/originman_llm_chat/originman_llm_chat.egg-info/SOURCES.txt'
+[6.747s] reading manifest file '../build/originman_llm_chat/originman_llm_chat.egg-info/SOURCES.txt'
+[6.753s] writing manifest file '../build/originman_llm_chat/originman_llm_chat.egg-info/SOURCES.txt'
+[6.754s] running build
+[6.755s] running build_py
+[6.756s] creating /userdata/dev_ws/src/originman/build/originman_llm_chat/build
+[6.757s] creating /userdata/dev_ws/src/originman/build/originman_llm_chat/build/lib
+[6.758s] creating /userdata/dev_ws/src/originman/build/originman_llm_chat/build/lib/originman_llm_chat
+[6.758s] copying originman_llm_chat/asr_node.py -> /userdata/dev_ws/src/originman/build/originman_llm_chat/build/lib/originman_llm_chat
+[6.759s] copying originman_llm_chat/llm_chat_node.py -> /userdata/dev_ws/src/originman/build/originman_llm_chat/build/lib/originman_llm_chat
+[6.760s] copying originman_llm_chat/text_to_speech_node.py -> /userdata/dev_ws/src/originman/build/originman_llm_chat/build/lib/originman_llm_chat
+[6.761s] copying originman_llm_chat/__init__.py -> /userdata/dev_ws/src/originman/build/originman_llm_chat/build/lib/originman_llm_chat
+[6.761s] copying originman_llm_chat/audio_test_node.py -> /userdata/dev_ws/src/originman/build/originman_llm_chat/build/lib/originman_llm_chat
+[6.762s] running install
+[6.763s] running install_lib
+[6.771s] creating /userdata/dev_ws/src/originman/install/originman_llm_chat/lib/python3.10/site-packages/originman_llm_chat
+[6.772s] copying /userdata/dev_ws/src/originman/build/originman_llm_chat/build/lib/originman_llm_chat/asr_node.py -> /userdata/dev_ws/src/originman/install/originman_llm_chat/lib/python3.10/site-packages/originman_llm_chat
+[6.772s] copying /userdata/dev_ws/src/originman/build/originman_llm_chat/build/lib/originman_llm_chat/llm_chat_node.py -> /userdata/dev_ws/src/originman/install/originman_llm_chat/lib/python3.10/site-packages/originman_llm_chat
+[6.776s] copying /userdata/dev_ws/src/originman/build/originman_llm_chat/build/lib/originman_llm_chat/text_to_speech_node.py -> /userdata/dev_ws/src/originman/install/originman_llm_chat/lib/python3.10/site-packages/originman_llm_chat
+[6.777s] copying /userdata/dev_ws/src/originman/build/originman_llm_chat/build/lib/originman_llm_chat/__init__.py -> /userdata/dev_ws/src/originman/install/originman_llm_chat/lib/python3.10/site-packages/originman_llm_chat
+[6.778s] copying /userdata/dev_ws/src/originman/build/originman_llm_chat/build/lib/originman_llm_chat/audio_test_node.py -> /userdata/dev_ws/src/originman/install/originman_llm_chat/lib/python3.10/site-packages/originman_llm_chat
+[6.780s] byte-compiling /userdata/dev_ws/src/originman/install/originman_llm_chat/lib/python3.10/site-packages/originman_llm_chat/asr_node.py to asr_node.cpython-310.pyc
+[6.792s] byte-compiling /userdata/dev_ws/src/originman/install/originman_llm_chat/lib/python3.10/site-packages/originman_llm_chat/llm_chat_node.py to llm_chat_node.cpython-310.pyc
+[6.796s] byte-compiling /userdata/dev_ws/src/originman/install/originman_llm_chat/lib/python3.10/site-packages/originman_llm_chat/text_to_speech_node.py to text_to_speech_node.cpython-310.pyc
+[6.803s] byte-compiling /userdata/dev_ws/src/originman/install/originman_llm_chat/lib/python3.10/site-packages/originman_llm_chat/__init__.py to __init__.cpython-310.pyc
+[6.804s] byte-compiling /userdata/dev_ws/src/originman/install/originman_llm_chat/lib/python3.10/site-packages/originman_llm_chat/audio_test_node.py to audio_test_node.cpython-310.pyc
+[6.809s] running install_data
+[6.811s] creating /userdata/dev_ws/src/originman/install/originman_llm_chat/share/ament_index
+[6.812s] creating /userdata/dev_ws/src/originman/install/originman_llm_chat/share/ament_index/resource_index
+[6.813s] creating /userdata/dev_ws/src/originman/install/originman_llm_chat/share/ament_index/resource_index/packages
+[6.814s] copying resource/originman_llm_chat -> /userdata/dev_ws/src/originman/install/originman_llm_chat/share/ament_index/resource_index/packages
+[6.815s] copying package.xml -> /userdata/dev_ws/src/originman/install/originman_llm_chat/share/originman_llm_chat
+[6.815s] creating /userdata/dev_ws/src/originman/install/originman_llm_chat/share/originman_llm_chat/launch
+[6.816s] copying launch/originman_llm_chat.launch.py -> /userdata/dev_ws/src/originman/install/originman_llm_chat/share/originman_llm_chat/launch
+[6.817s] running install_egg_info
+[6.829s] Copying ../build/originman_llm_chat/originman_llm_chat.egg-info to /userdata/dev_ws/src/originman/install/originman_llm_chat/lib/python3.10/site-packages/originman_llm_chat-0.0.0-py3.10.egg-info
+[6.835s] running install_scripts
+[6.972s] Installing asr_node script to /userdata/dev_ws/src/originman/install/originman_llm_chat/lib/originman_llm_chat
+[6.975s] Installing audio_test_node script to /userdata/dev_ws/src/originman/install/originman_llm_chat/lib/originman_llm_chat
+[6.976s] Installing llm_chat_node script to /userdata/dev_ws/src/originman/install/originman_llm_chat/lib/originman_llm_chat
+[6.977s] Installing text_to_speech_node script to /userdata/dev_ws/src/originman/install/originman_llm_chat/lib/originman_llm_chat
+[6.981s] writing list of installed files to '/userdata/dev_ws/src/originman/build/originman_llm_chat/install.log'
+[7.205s] Invoked command in '/userdata/dev_ws/src/originman/originman_llm_chat' returned '0': PYTHONPATH=/userdata/dev_ws/src/originman/build/originman_llm_chat/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/dev_ws/src/originman/install/originman_llm_chat/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/originman_llm_chat build --build-base /userdata/dev_ws/src/originman/build/originman_llm_chat/build install --record /userdata/dev_ws/src/originman/build/originman_llm_chat/install.log --single-version-externally-managed install_data

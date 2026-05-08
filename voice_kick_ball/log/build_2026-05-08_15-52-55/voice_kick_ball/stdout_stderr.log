@@ -1,0 +1,26 @@
+running egg_info
+creating build/voice_kick_ball/originman_kick_ball.egg-info
+writing build/voice_kick_ball/originman_kick_ball.egg-info/PKG-INFO
+writing dependency_links to build/voice_kick_ball/originman_kick_ball.egg-info/dependency_links.txt
+writing entry points to build/voice_kick_ball/originman_kick_ball.egg-info/entry_points.txt
+writing requirements to build/voice_kick_ball/originman_kick_ball.egg-info/requires.txt
+writing top-level names to build/voice_kick_ball/originman_kick_ball.egg-info/top_level.txt
+writing manifest file 'build/voice_kick_ball/originman_kick_ball.egg-info/SOURCES.txt'
+reading manifest file 'build/voice_kick_ball/originman_kick_ball.egg-info/SOURCES.txt'
+writing manifest file 'build/voice_kick_ball/originman_kick_ball.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /userdata/dev_ws/src/originman/voice_kick_ball/build/voice_kick_ball/build
+creating /userdata/dev_ws/src/originman/voice_kick_ball/build/voice_kick_ball/build/lib
+creating /userdata/dev_ws/src/originman/voice_kick_ball/build/voice_kick_ball/build/lib/voice_kick_ball
+copying voice_kick_ball/voice_kick_ball.py -> /userdata/dev_ws/src/originman/voice_kick_ball/build/voice_kick_ball/build/lib/voice_kick_ball
+copying voice_kick_ball/__init__.py -> /userdata/dev_ws/src/originman/voice_kick_ball/build/voice_kick_ball/build/lib/voice_kick_ball
+running install
+running install_lib
+creating /userdata/dev_ws/src/originman/voice_kick_ball/install/voice_kick_ball/lib/python3.10/site-packages/voice_kick_ball
+copying /userdata/dev_ws/src/originman/voice_kick_ball/build/voice_kick_ball/build/lib/voice_kick_ball/voice_kick_ball.py -> /userdata/dev_ws/src/originman/voice_kick_ball/install/voice_kick_ball/lib/python3.10/site-packages/voice_kick_ball
+copying /userdata/dev_ws/src/originman/voice_kick_ball/build/voice_kick_ball/build/lib/voice_kick_ball/__init__.py -> /userdata/dev_ws/src/originman/voice_kick_ball/install/voice_kick_ball/lib/python3.10/site-packages/voice_kick_ball
+byte-compiling /userdata/dev_ws/src/originman/voice_kick_ball/install/voice_kick_ball/lib/python3.10/site-packages/voice_kick_ball/voice_kick_ball.py to voice_kick_ball.cpython-310.pyc
+byte-compiling /userdata/dev_ws/src/originman/voice_kick_ball/install/voice_kick_ball/lib/python3.10/site-packages/voice_kick_ball/__init__.py to __init__.cpython-310.pyc
+running install_data
+error: can't copy 'resource/originman_kick_ball': doesn't exist or not a regular file

@@ -1,0 +1,4 @@
+[console_scripts]
+kick_ball = voice_kick_ball.kick_ball:main
+voice_kick_node = voice_kick_ball.voice_kick_node:main
+

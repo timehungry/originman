@@ -1,0 +1,3 @@
+[console_scripts]
+kick_ball = originman_kick_ball.kick_ball:main
+

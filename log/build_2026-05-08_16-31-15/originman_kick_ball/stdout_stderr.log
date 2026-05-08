@@ -1,0 +1,35 @@
+running egg_info
+creating ../build/originman_kick_ball/originman_kick_ball.egg-info
+writing ../build/originman_kick_ball/originman_kick_ball.egg-info/PKG-INFO
+writing dependency_links to ../build/originman_kick_ball/originman_kick_ball.egg-info/dependency_links.txt
+writing entry points to ../build/originman_kick_ball/originman_kick_ball.egg-info/entry_points.txt
+writing requirements to ../build/originman_kick_ball/originman_kick_ball.egg-info/requires.txt
+writing top-level names to ../build/originman_kick_ball/originman_kick_ball.egg-info/top_level.txt
+writing manifest file '../build/originman_kick_ball/originman_kick_ball.egg-info/SOURCES.txt'
+reading manifest file '../build/originman_kick_ball/originman_kick_ball.egg-info/SOURCES.txt'
+writing manifest file '../build/originman_kick_ball/originman_kick_ball.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /userdata/dev_ws/src/originman/build/originman_kick_ball/build
+creating /userdata/dev_ws/src/originman/build/originman_kick_ball/build/lib
+creating /userdata/dev_ws/src/originman/build/originman_kick_ball/build/lib/originman_kick_ball
+copying originman_kick_ball/kick_ball.py -> /userdata/dev_ws/src/originman/build/originman_kick_ball/build/lib/originman_kick_ball
+copying originman_kick_ball/__init__.py -> /userdata/dev_ws/src/originman/build/originman_kick_ball/build/lib/originman_kick_ball
+running install
+running install_lib
+creating /userdata/dev_ws/src/originman/install/originman_kick_ball/lib/python3.10/site-packages/originman_kick_ball
+copying /userdata/dev_ws/src/originman/build/originman_kick_ball/build/lib/originman_kick_ball/kick_ball.py -> /userdata/dev_ws/src/originman/install/originman_kick_ball/lib/python3.10/site-packages/originman_kick_ball
+copying /userdata/dev_ws/src/originman/build/originman_kick_ball/build/lib/originman_kick_ball/__init__.py -> /userdata/dev_ws/src/originman/install/originman_kick_ball/lib/python3.10/site-packages/originman_kick_ball
+byte-compiling /userdata/dev_ws/src/originman/install/originman_kick_ball/lib/python3.10/site-packages/originman_kick_ball/kick_ball.py to kick_ball.cpython-310.pyc
+byte-compiling /userdata/dev_ws/src/originman/install/originman_kick_ball/lib/python3.10/site-packages/originman_kick_ball/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /userdata/dev_ws/src/originman/install/originman_kick_ball/share/ament_index
+creating /userdata/dev_ws/src/originman/install/originman_kick_ball/share/ament_index/resource_index
+creating /userdata/dev_ws/src/originman/install/originman_kick_ball/share/ament_index/resource_index/packages
+copying resource/originman_kick_ball -> /userdata/dev_ws/src/originman/install/originman_kick_ball/share/ament_index/resource_index/packages
+copying package.xml -> /userdata/dev_ws/src/originman/install/originman_kick_ball/share/originman_kick_ball
+running install_egg_info
+Copying ../build/originman_kick_ball/originman_kick_ball.egg-info to /userdata/dev_ws/src/originman/install/originman_kick_ball/lib/python3.10/site-packages/originman_kick_ball-0.0.0-py3.10.egg-info
+running install_scripts
+Installing kick_ball script to /userdata/dev_ws/src/originman/install/originman_kick_ball/lib/originman_kick_ball
+writing list of installed files to '/userdata/dev_ws/src/originman/build/originman_kick_ball/install.log'

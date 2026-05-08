@@ -1,0 +1,24 @@
+[8.123s] Invoking command in '/userdata/dev_ws/src/originman/originman_llm_chat': PYTHONPATH=/userdata/dev_ws/src/originman/build/originman_llm_chat/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/dev_ws/src/originman/install/originman_llm_chat/lib/python3.10/site-packages:${PYTHONPATH} ROS_DOMAIN_ID=65 /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/originman_llm_chat build --build-base /userdata/dev_ws/src/originman/build/originman_llm_chat/build install --record /userdata/dev_ws/src/originman/build/originman_llm_chat/install.log --single-version-externally-managed install_data
+[10.499s] running egg_info
+[10.505s] writing ../build/originman_llm_chat/originman_llm_chat.egg-info/PKG-INFO
+[10.518s] writing dependency_links to ../build/originman_llm_chat/originman_llm_chat.egg-info/dependency_links.txt
+[10.520s] writing entry points to ../build/originman_llm_chat/originman_llm_chat.egg-info/entry_points.txt
+[10.521s] writing requirements to ../build/originman_llm_chat/originman_llm_chat.egg-info/requires.txt
+[10.522s] writing top-level names to ../build/originman_llm_chat/originman_llm_chat.egg-info/top_level.txt
+[10.532s] reading manifest file '../build/originman_llm_chat/originman_llm_chat.egg-info/SOURCES.txt'
+[10.539s] writing manifest file '../build/originman_llm_chat/originman_llm_chat.egg-info/SOURCES.txt'
+[10.541s] running build
+[10.541s] running build_py
+[10.543s] running install
+[10.545s] running install_lib
+[10.555s] running install_data
+[10.556s] running install_egg_info
+[10.568s] removing '/userdata/dev_ws/src/originman/install/originman_llm_chat/lib/python3.10/site-packages/originman_llm_chat-0.0.0-py3.10.egg-info' (and everything under it)
+[10.572s] Copying ../build/originman_llm_chat/originman_llm_chat.egg-info to /userdata/dev_ws/src/originman/install/originman_llm_chat/lib/python3.10/site-packages/originman_llm_chat-0.0.0-py3.10.egg-info
+[10.578s] running install_scripts
+[10.720s] Installing asr_node script to /userdata/dev_ws/src/originman/install/originman_llm_chat/lib/originman_llm_chat
+[10.721s] Installing audio_test_node script to /userdata/dev_ws/src/originman/install/originman_llm_chat/lib/originman_llm_chat
+[10.722s] Installing llm_chat_node script to /userdata/dev_ws/src/originman/install/originman_llm_chat/lib/originman_llm_chat
+[10.723s] Installing text_to_speech_node script to /userdata/dev_ws/src/originman/install/originman_llm_chat/lib/originman_llm_chat
+[10.727s] writing list of installed files to '/userdata/dev_ws/src/originman/build/originman_llm_chat/install.log'
+[11.052s] Invoked command in '/userdata/dev_ws/src/originman/originman_llm_chat' returned '0': PYTHONPATH=/userdata/dev_ws/src/originman/build/originman_llm_chat/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/dev_ws/src/originman/install/originman_llm_chat/lib/python3.10/site-packages:${PYTHONPATH} ROS_DOMAIN_ID=65 /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/originman_llm_chat build --build-base /userdata/dev_ws/src/originman/build/originman_llm_chat/build install --record /userdata/dev_ws/src/originman/build/originman_llm_chat/install.log --single-version-externally-managed install_data

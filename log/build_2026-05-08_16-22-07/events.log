@@ -1,0 +1,143 @@
+[0.000000] (-) TimerEvent: {}
+[0.001198] (-) JobUnselected: {'identifier': 'hiwonder'}
+[0.002301] (-) JobUnselected: {'identifier': 'originman_action_imitation'}
+[0.003105] (-) JobUnselected: {'identifier': 'originman_apriltag_detect'}
+[0.003981] (-) JobUnselected: {'identifier': 'originman_audio_control'}
+[0.004217] (-) JobUnselected: {'identifier': 'originman_color_detect'}
+[0.004602] (-) JobUnselected: {'identifier': 'originman_demo'}
+[0.004799] (-) JobUnselected: {'identifier': 'originman_kick_ball'}
+[0.004943] (-) JobUnselected: {'identifier': 'originman_line_follower'}
+[0.005092] (-) JobUnselected: {'identifier': 'originman_teleop_keyboard'}
+[0.005261] (-) JobUnselected: {'identifier': 'originman_transport_lab'}
+[0.005423] (-) JobUnselected: {'identifier': 'pre_rdk_install'}
+[0.006203] (-) JobUnselected: {'identifier': 'voice_kick_ball'}
+[0.006438] (originman_llm_chat) JobQueued: {'identifier': 'originman_llm_chat', 'dependencies': OrderedDict()}
+[0.006594] (originman_llm_chat) JobStarted: {'identifier': 'originman_llm_chat'}
+[0.098728] (-) TimerEvent: {}
+[0.199583] (-) TimerEvent: {}
+[0.382205] (-) TimerEvent: {}
+[0.483147] (-) TimerEvent: {}
+[0.584636] (-) TimerEvent: {}
+[0.685706] (-) TimerEvent: {}
+[0.786655] (-) TimerEvent: {}
+[0.887549] (-) TimerEvent: {}
+[0.988411] (-) TimerEvent: {}
+[1.089510] (-) TimerEvent: {}
+[1.190515] (-) TimerEvent: {}
+[1.291312] (-) TimerEvent: {}
+[1.392187] (-) TimerEvent: {}
+[1.493035] (-) TimerEvent: {}
+[1.594055] (-) TimerEvent: {}
+[1.695244] (-) TimerEvent: {}
+[1.796111] (-) TimerEvent: {}
+[1.896946] (-) TimerEvent: {}
+[1.997743] (-) TimerEvent: {}
+[2.098610] (-) TimerEvent: {}
+[2.199466] (-) TimerEvent: {}
+[2.300407] (-) TimerEvent: {}
+[2.401411] (-) TimerEvent: {}
+[2.502689] (-) TimerEvent: {}
+[2.603535] (-) TimerEvent: {}
+[2.704404] (-) TimerEvent: {}
+[2.805234] (-) TimerEvent: {}
+[2.906076] (-) TimerEvent: {}
+[3.006916] (-) TimerEvent: {}
+[3.107772] (-) TimerEvent: {}
+[3.208647] (-) TimerEvent: {}
+[3.309538] (-) TimerEvent: {}
+[3.410371] (-) TimerEvent: {}
+[3.511202] (-) TimerEvent: {}
+[3.612048] (-) TimerEvent: {}
+[3.712908] (-) TimerEvent: {}
+[3.813767] (-) TimerEvent: {}
+[3.914624] (-) TimerEvent: {}
+[4.015460] (-) TimerEvent: {}
+[4.116286] (-) TimerEvent: {}
+[4.217188] (-) TimerEvent: {}
+[4.318124] (-) TimerEvent: {}
+[4.418993] (-) TimerEvent: {}
+[4.519873] (-) TimerEvent: {}
+[4.620746] (-) TimerEvent: {}
+[4.721651] (-) TimerEvent: {}
+[4.822642] (-) TimerEvent: {}
+[4.923604] (-) TimerEvent: {}
+[4.967229] (originman_llm_chat) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/originman_llm_chat', 'build', '--build-base', '/userdata/dev_ws/src/originman/build/originman_llm_chat/build', 'install', '--record', '/userdata/dev_ws/src/originman/build/originman_llm_chat/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/userdata/dev_ws/src/originman/originman_llm_chat', 'env': {'LANGUAGE': 'en_US.UTF-8', 'USER': 'root', 'SSH_CLIENT': '192.168.127.100 54816 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/root/.vscode-server/cli/servers/Stable-10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/userdata/dev_ws/install/tros_perception_render/lib:/userdata/dev_ws/install/tros_lowpass_filter/lib:/userdata/dev_ws/install/tros_ai_fusion/lib:/userdata/dev_ws/install/tros_ai_fusion_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/root/.vscode-server/cli/servers/Stable-10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/root', 'OLDPWD': '/userdata/dev_ws/src/originman/voice_kick_ball', 'TERM_PROGRAM_VERSION': '1.117.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/0/vscode-ipc-cee3794d-8b7d-4e4a-ad85-3d545d9b10f0.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/cli/servers/Stable-10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/cli/servers/Stable-10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/server/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/root/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'TROS_DISTRO': 'humble', 'COLCON_PREFIX_PATH': '/userdata/dev_ws/src/originman/install:/userdata/dev_ws/src/originman/voice_kick_ball/install:/root/colcon_ws/install:/userdata/dev_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/tros/humble/bin:/opt/ros/humble/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/cli/servers/Stable-10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/root/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/bundled/scripts/noConfigScripts', 'CAM_TYPE': 'usb', 'XDG_RUNTIME_DIR': '/run/user/0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/root/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-bddc39ca21d31e23.txt', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/0/vscode-git-c1c1877e5a.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/userdata/dev_ws/src/originman/install/voice_kick_ball:/userdata/dev_ws/src/originman/voice_kick_ball/install/voice_kick_ball:/userdata/dev_ws/install/tros_perception_render:/userdata/dev_ws/install/tros_lowpass_filter:/userdata/dev_ws/install/tros_ai_fusion:/userdata/dev_ws/install/tros_ai_fusion_msgs:/userdata/dev_ws/install/pre_rdk_install:/userdata/dev_ws/install/originman_transport_lab:/userdata/dev_ws/install/originman_teleop_keyboard:/userdata/dev_ws/install/originman_llm_chat:/userdata/dev_ws/install/originman_line_follower:/userdata/dev_ws/install/originman_kick_ball:/userdata/dev_ws/install/originman_demo:/userdata/dev_ws/install/originman_color_detect:/userdata/dev_ws/install/originman_audio_control:/userdata/dev_ws/install/originman_apriltag_detect:/userdata/dev_ws/install/originman_action_imitation:/userdata/dev_ws/install/hand_gesture_detection:/userdata/dev_ws/install/hand_lmk_detection:/userdata/dev_ws/install/face_landmarks_detection:/userdata/dev_ws/install/face_age_detection:/root/colcon_ws/install/originman_vision:/opt/tros/humble:/opt/ros/humble', 'ROS_DOMAIN_ID': '64', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/userdata/dev_ws/src/originman/build/originman_llm_chat', 'SSH_CONNECTION': '192.168.127.100 54816 192.168.127.10 22', 'PYTHONPATH': '/userdata/dev_ws/src/originman/build/originman_llm_chat/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/dev_ws/src/originman/install/originman_llm_chat/lib/python3.10/site-packages:/userdata/dev_ws/src/originman/install/voice_kick_ball/lib/python3.10/site-packages:/userdata/dev_ws/src/originman/voice_kick_ball/install/voice_kick_ball/lib/python3.10/site-packages:/userdata/dev_ws/install/tros_ai_fusion_msgs/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/originman_transport_lab/lib/python3.10/site-packages:/userdata/dev_ws/install/originman_teleop_keyboard/lib/python3.10/site-packages:/userdata/dev_ws/install/originman_llm_chat/lib/python3.10/site-packages:/userdata/dev_ws/install/originman_line_follower/lib/python3.10/site-packages:/userdata/dev_ws/install/originman_kick_ball/lib/python3.10/site-packages:/userdata/dev_ws/install/originman_demo/lib/python3.10/site-packages:/userdata/dev_ws/install/originman_color_detect/lib/python3.10/site-packages:/userdata/dev_ws/install/originman_audio_control/lib/python3.10/site-packages:/userdata/dev_ws/install/originman_apriltag_detect/lib/python3.10/site-packages:/userdata/dev_ws/install/hiwonder/lib/python3.10/site-packages:/root/colcon_ws/install/originman_vision/lib/python3.10/site-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/userdata/dev_ws/install/tros_perception_render:/userdata/dev_ws/install/tros_lowpass_filter:/userdata/dev_ws/install/tros_ai_fusion:/userdata/dev_ws/install/tros_ai_fusion_msgs:/userdata/dev_ws/install/pre_rdk_install:/userdata/dev_ws/install/originman_action_imitation:/userdata/dev_ws/install/hand_gesture_detection:/userdata/dev_ws/install/hand_lmk_detection:/userdata/dev_ws/install/face_landmarks_detection:/userdata/dev_ws/install/face_age_detection'}, 'shell': False}
+[5.023867] (-) TimerEvent: {}
+[5.124709] (-) TimerEvent: {}
+[5.225519] (-) TimerEvent: {}
+[5.326355] (-) TimerEvent: {}
+[5.427147] (-) TimerEvent: {}
+[5.527924] (-) TimerEvent: {}
+[5.628750] (-) TimerEvent: {}
+[5.729554] (-) TimerEvent: {}
+[5.830362] (-) TimerEvent: {}
+[5.931252] (-) TimerEvent: {}
+[6.032110] (-) TimerEvent: {}
+[6.132906] (-) TimerEvent: {}
+[6.233739] (-) TimerEvent: {}
+[6.334556] (-) TimerEvent: {}
+[6.435419] (-) TimerEvent: {}
+[6.536269] (-) TimerEvent: {}
+[6.637140] (-) TimerEvent: {}
+[6.724915] (originman_llm_chat) StdoutLine: {'line': b'running egg_info\n'}
+[6.729085] (originman_llm_chat) StdoutLine: {'line': b'creating ../build/originman_llm_chat/originman_llm_chat.egg-info\n'}
+[6.731547] (originman_llm_chat) StdoutLine: {'line': b'writing ../build/originman_llm_chat/originman_llm_chat.egg-info/PKG-INFO\n'}
+[6.732883] (originman_llm_chat) StdoutLine: {'line': b'writing dependency_links to ../build/originman_llm_chat/originman_llm_chat.egg-info/dependency_links.txt\n'}
+[6.733793] (originman_llm_chat) StdoutLine: {'line': b'writing entry points to ../build/originman_llm_chat/originman_llm_chat.egg-info/entry_points.txt\n'}
+[6.734599] (originman_llm_chat) StdoutLine: {'line': b'writing requirements to ../build/originman_llm_chat/originman_llm_chat.egg-info/requires.txt\n'}
+[6.735395] (originman_llm_chat) StdoutLine: {'line': b'writing top-level names to ../build/originman_llm_chat/originman_llm_chat.egg-info/top_level.txt\n'}
+[6.736144] (originman_llm_chat) StdoutLine: {'line': b"writing manifest file '../build/originman_llm_chat/originman_llm_chat.egg-info/SOURCES.txt'\n"}
+[6.737237] (-) TimerEvent: {}
+[6.753157] (originman_llm_chat) StdoutLine: {'line': b"reading manifest file '../build/originman_llm_chat/originman_llm_chat.egg-info/SOURCES.txt'\n"}
+[6.758871] (originman_llm_chat) StdoutLine: {'line': b"writing manifest file '../build/originman_llm_chat/originman_llm_chat.egg-info/SOURCES.txt'\n"}
+[6.760016] (originman_llm_chat) StdoutLine: {'line': b'running build\n'}
+[6.761277] (originman_llm_chat) StdoutLine: {'line': b'running build_py\n'}
+[6.762276] (originman_llm_chat) StdoutLine: {'line': b'creating /userdata/dev_ws/src/originman/build/originman_llm_chat/build\n'}
+[6.763026] (originman_llm_chat) StdoutLine: {'line': b'creating /userdata/dev_ws/src/originman/build/originman_llm_chat/build/lib\n'}
+[6.763963] (originman_llm_chat) StdoutLine: {'line': b'creating /userdata/dev_ws/src/originman/build/originman_llm_chat/build/lib/originman_llm_chat\n'}
+[6.764708] (originman_llm_chat) StdoutLine: {'line': b'copying originman_llm_chat/asr_node.py -> /userdata/dev_ws/src/originman/build/originman_llm_chat/build/lib/originman_llm_chat\n'}
+[6.765553] (originman_llm_chat) StdoutLine: {'line': b'copying originman_llm_chat/llm_chat_node.py -> /userdata/dev_ws/src/originman/build/originman_llm_chat/build/lib/originman_llm_chat\n'}
+[6.766391] (originman_llm_chat) StdoutLine: {'line': b'copying originman_llm_chat/text_to_speech_node.py -> /userdata/dev_ws/src/originman/build/originman_llm_chat/build/lib/originman_llm_chat\n'}
+[6.767044] (originman_llm_chat) StdoutLine: {'line': b'copying originman_llm_chat/__init__.py -> /userdata/dev_ws/src/originman/build/originman_llm_chat/build/lib/originman_llm_chat\n'}
+[6.767833] (originman_llm_chat) StdoutLine: {'line': b'copying originman_llm_chat/audio_test_node.py -> /userdata/dev_ws/src/originman/build/originman_llm_chat/build/lib/originman_llm_chat\n'}
+[6.768455] (originman_llm_chat) StdoutLine: {'line': b'running install\n'}
+[6.769479] (originman_llm_chat) StdoutLine: {'line': b'running install_lib\n'}
+[6.776966] (originman_llm_chat) StdoutLine: {'line': b'creating /userdata/dev_ws/src/originman/install/originman_llm_chat/lib/python3.10/site-packages/originman_llm_chat\n'}
+[6.777908] (originman_llm_chat) StdoutLine: {'line': b'copying /userdata/dev_ws/src/originman/build/originman_llm_chat/build/lib/originman_llm_chat/asr_node.py -> /userdata/dev_ws/src/originman/install/originman_llm_chat/lib/python3.10/site-packages/originman_llm_chat\n'}
+[6.778674] (originman_llm_chat) StdoutLine: {'line': b'copying /userdata/dev_ws/src/originman/build/originman_llm_chat/build/lib/originman_llm_chat/llm_chat_node.py -> /userdata/dev_ws/src/originman/install/originman_llm_chat/lib/python3.10/site-packages/originman_llm_chat\n'}
+[6.782083] (originman_llm_chat) StdoutLine: {'line': b'copying /userdata/dev_ws/src/originman/build/originman_llm_chat/build/lib/originman_llm_chat/text_to_speech_node.py -> /userdata/dev_ws/src/originman/install/originman_llm_chat/lib/python3.10/site-packages/originman_llm_chat\n'}
+[6.783185] (originman_llm_chat) StdoutLine: {'line': b'copying /userdata/dev_ws/src/originman/build/originman_llm_chat/build/lib/originman_llm_chat/__init__.py -> /userdata/dev_ws/src/originman/install/originman_llm_chat/lib/python3.10/site-packages/originman_llm_chat\n'}
+[6.784107] (originman_llm_chat) StdoutLine: {'line': b'copying /userdata/dev_ws/src/originman/build/originman_llm_chat/build/lib/originman_llm_chat/audio_test_node.py -> /userdata/dev_ws/src/originman/install/originman_llm_chat/lib/python3.10/site-packages/originman_llm_chat\n'}
+[6.785861] (originman_llm_chat) StdoutLine: {'line': b'byte-compiling /userdata/dev_ws/src/originman/install/originman_llm_chat/lib/python3.10/site-packages/originman_llm_chat/asr_node.py to asr_node.cpython-310.pyc\n'}
+[6.798384] (originman_llm_chat) StdoutLine: {'line': b'byte-compiling /userdata/dev_ws/src/originman/install/originman_llm_chat/lib/python3.10/site-packages/originman_llm_chat/llm_chat_node.py to llm_chat_node.cpython-310.pyc\n'}
+[6.802682] (originman_llm_chat) StdoutLine: {'line': b'byte-compiling /userdata/dev_ws/src/originman/install/originman_llm_chat/lib/python3.10/site-packages/originman_llm_chat/text_to_speech_node.py to text_to_speech_node.cpython-310.pyc\n'}
+[6.809349] (originman_llm_chat) StdoutLine: {'line': b'byte-compiling /userdata/dev_ws/src/originman/install/originman_llm_chat/lib/python3.10/site-packages/originman_llm_chat/__init__.py to __init__.cpython-310.pyc\n'}
+[6.810386] (originman_llm_chat) StdoutLine: {'line': b'byte-compiling /userdata/dev_ws/src/originman/install/originman_llm_chat/lib/python3.10/site-packages/originman_llm_chat/audio_test_node.py to audio_test_node.cpython-310.pyc\n'}
+[6.815222] (originman_llm_chat) StdoutLine: {'line': b'running install_data\n'}
+[6.817037] (originman_llm_chat) StdoutLine: {'line': b'creating /userdata/dev_ws/src/originman/install/originman_llm_chat/share/ament_index\n'}
+[6.818464] (originman_llm_chat) StdoutLine: {'line': b'creating /userdata/dev_ws/src/originman/install/originman_llm_chat/share/ament_index/resource_index\n'}
+[6.819249] (originman_llm_chat) StdoutLine: {'line': b'creating /userdata/dev_ws/src/originman/install/originman_llm_chat/share/ament_index/resource_index/packages\n'}
+[6.820005] (originman_llm_chat) StdoutLine: {'line': b'copying resource/originman_llm_chat -> /userdata/dev_ws/src/originman/install/originman_llm_chat/share/ament_index/resource_index/packages\n'}
+[6.820946] (originman_llm_chat) StdoutLine: {'line': b'copying package.xml -> /userdata/dev_ws/src/originman/install/originman_llm_chat/share/originman_llm_chat\n'}
+[6.821775] (originman_llm_chat) StdoutLine: {'line': b'creating /userdata/dev_ws/src/originman/install/originman_llm_chat/share/originman_llm_chat/launch\n'}
+[6.822601] (originman_llm_chat) StdoutLine: {'line': b'copying launch/originman_llm_chat.launch.py -> /userdata/dev_ws/src/originman/install/originman_llm_chat/share/originman_llm_chat/launch\n'}
+[6.823244] (originman_llm_chat) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.834829] (originman_llm_chat) StdoutLine: {'line': b'Copying ../build/originman_llm_chat/originman_llm_chat.egg-info to /userdata/dev_ws/src/originman/install/originman_llm_chat/lib/python3.10/site-packages/originman_llm_chat-0.0.0-py3.10.egg-info\n'}
+[6.837443] (-) TimerEvent: {}
+[6.840921] (originman_llm_chat) StdoutLine: {'line': b'running install_scripts\n'}
+[6.937625] (-) TimerEvent: {}
+[6.978349] (originman_llm_chat) StdoutLine: {'line': b'Installing asr_node script to /userdata/dev_ws/src/originman/install/originman_llm_chat/lib/originman_llm_chat\n'}
+[6.981422] (originman_llm_chat) StdoutLine: {'line': b'Installing audio_test_node script to /userdata/dev_ws/src/originman/install/originman_llm_chat/lib/originman_llm_chat\n'}
+[6.982312] (originman_llm_chat) StdoutLine: {'line': b'Installing llm_chat_node script to /userdata/dev_ws/src/originman/install/originman_llm_chat/lib/originman_llm_chat\n'}
+[6.983047] (originman_llm_chat) StdoutLine: {'line': b'Installing text_to_speech_node script to /userdata/dev_ws/src/originman/install/originman_llm_chat/lib/originman_llm_chat\n'}
+[6.987642] (originman_llm_chat) StdoutLine: {'line': b"writing list of installed files to '/userdata/dev_ws/src/originman/build/originman_llm_chat/install.log'\n"}
+[7.037859] (-) TimerEvent: {}
+[7.138909] (-) TimerEvent: {}
+[7.210699] (originman_llm_chat) CommandEnded: {'returncode': 0}
+[7.239095] (-) TimerEvent: {}
+[7.340101] (-) TimerEvent: {}
+[7.459331] (-) TimerEvent: {}
+[7.560700] (-) TimerEvent: {}
+[7.599185] (originman_llm_chat) JobEnded: {'identifier': 'originman_llm_chat', 'rc': 0}
+[7.743386] (-) TimerEvent: {}
+[7.743943] (-) EventReactorShutdown: {}

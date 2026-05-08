@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+launch/voice_kick.launch.py
+resource/voice_kick_ball
+voice_kick_ball/__init__.py
+voice_kick_ball/kick_ball.py
+voice_kick_ball/voice_kick_node.py
+voice_kick_ball.egg-info/PKG-INFO
+voice_kick_ball.egg-info/SOURCES.txt
+voice_kick_ball.egg-info/dependency_links.txt
+voice_kick_ball.egg-info/entry_points.txt
+voice_kick_ball.egg-info/requires.txt
+voice_kick_ball.egg-info/top_level.txt
+voice_kick_ball.egg-info/zip-safe

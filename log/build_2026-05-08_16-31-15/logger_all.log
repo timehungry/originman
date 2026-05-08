@@ -1,0 +1,492 @@
+[2.028s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'voice_kick_ball', 'originman_kick_ball']
+[2.029s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['voice_kick_ball', 'originman_kick_ball'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], bazel_args=None, bazel_task=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, meson_args=[], ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_alias.argument_parser.alias.AliasArgumentDecorator object at 0xffffa21aee60>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa24513f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa24513f0>>, mixin_verb=('build',))
+[3.515s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.516s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.516s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.516s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.517s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.517s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.517s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/userdata/dev_ws/src/originman'
+[3.518s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.518s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.519s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.519s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.519s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.520s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.520s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.520s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.520s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.538s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['bazel', 'cmake', 'meson', 'python']
+[3.539s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'bazel'
+[3.539s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.540s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'meson'
+[3.540s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.540s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.541s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.541s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extensions ['ignore', 'ignore_ament_install']
+[3.542s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extension 'ignore'
+[3.542s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extension 'ignore_ament_install'
+[3.543s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extensions ['colcon_pkg']
+[3.543s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extension 'colcon_pkg'
+[3.543s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extensions ['colcon_meta']
+[3.543s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extension 'colcon_meta'
+[3.544s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extensions ['ros']
+[3.544s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extension 'ros'
+[3.544s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extensions ['bazel', 'cmake', 'meson', 'python']
+[3.545s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extension 'bazel'
+[3.545s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extension 'cmake'
+[3.545s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extension 'meson'
+[3.546s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extension 'python'
+[3.546s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extensions ['python_setup_py']
+[3.546s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extension 'python_setup_py'
+[3.547s] Level 1:colcon.colcon_core.package_identification:_identify(assets/img) by extensions ['ignore', 'ignore_ament_install']
+[3.547s] Level 1:colcon.colcon_core.package_identification:_identify(assets/img) by extension 'ignore'
+[3.548s] Level 1:colcon.colcon_core.package_identification:_identify(assets/img) by extension 'ignore_ament_install'
+[3.548s] Level 1:colcon.colcon_core.package_identification:_identify(assets/img) by extensions ['colcon_pkg']
+[3.548s] Level 1:colcon.colcon_core.package_identification:_identify(assets/img) by extension 'colcon_pkg'
+[3.548s] Level 1:colcon.colcon_core.package_identification:_identify(assets/img) by extensions ['colcon_meta']
+[3.549s] Level 1:colcon.colcon_core.package_identification:_identify(assets/img) by extension 'colcon_meta'
+[3.549s] Level 1:colcon.colcon_core.package_identification:_identify(assets/img) by extensions ['ros']
+[3.549s] Level 1:colcon.colcon_core.package_identification:_identify(assets/img) by extension 'ros'
+[3.550s] Level 1:colcon.colcon_core.package_identification:_identify(assets/img) by extensions ['bazel', 'cmake', 'meson', 'python']
+[3.550s] Level 1:colcon.colcon_core.package_identification:_identify(assets/img) by extension 'bazel'
+[3.551s] Level 1:colcon.colcon_core.package_identification:_identify(assets/img) by extension 'cmake'
+[3.551s] Level 1:colcon.colcon_core.package_identification:_identify(assets/img) by extension 'meson'
+[3.551s] Level 1:colcon.colcon_core.package_identification:_identify(assets/img) by extension 'python'
+[3.552s] Level 1:colcon.colcon_core.package_identification:_identify(assets/img) by extensions ['python_setup_py']
+[3.552s] Level 1:colcon.colcon_core.package_identification:_identify(assets/img) by extension 'python_setup_py'
+[3.553s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.553s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.554s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.554s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['ignore', 'ignore_ament_install']
+[3.555s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'ignore'
+[3.555s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'ignore_ament_install'
+[3.556s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['colcon_pkg']
+[3.556s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'colcon_pkg'
+[3.556s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['colcon_meta']
+[3.557s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'colcon_meta'
+[3.557s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['ros']
+[3.557s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'ros'
+[3.558s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['bazel', 'cmake', 'meson', 'python']
+[3.558s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'bazel'
+[3.558s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'cmake'
+[3.559s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'meson'
+[3.559s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'python'
+[3.559s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['python_setup_py']
+[3.560s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'python_setup_py'
+[3.560s] Level 1:colcon.colcon_core.package_identification:_identify(driver) by extensions ['ignore', 'ignore_ament_install']
+[3.561s] Level 1:colcon.colcon_core.package_identification:_identify(driver) by extension 'ignore'
+[3.561s] Level 1:colcon.colcon_core.package_identification:_identify(driver) by extension 'ignore_ament_install'
+[3.562s] Level 1:colcon.colcon_core.package_identification:_identify(driver) by extensions ['colcon_pkg']
+[3.562s] Level 1:colcon.colcon_core.package_identification:_identify(driver) by extension 'colcon_pkg'
+[3.562s] Level 1:colcon.colcon_core.package_identification:_identify(driver) by extensions ['colcon_meta']
+[3.562s] Level 1:colcon.colcon_core.package_identification:_identify(driver) by extension 'colcon_meta'
+[3.563s] Level 1:colcon.colcon_core.package_identification:_identify(driver) by extensions ['ros']
+[3.563s] Level 1:colcon.colcon_core.package_identification:_identify(driver) by extension 'ros'
+[3.563s] Level 1:colcon.colcon_core.package_identification:_identify(driver) by extensions ['bazel', 'cmake', 'meson', 'python']
+[3.564s] Level 1:colcon.colcon_core.package_identification:_identify(driver) by extension 'bazel'
+[3.564s] Level 1:colcon.colcon_core.package_identification:_identify(driver) by extension 'cmake'
+[3.564s] Level 1:colcon.colcon_core.package_identification:_identify(driver) by extension 'meson'
+[3.565s] Level 1:colcon.colcon_core.package_identification:_identify(driver) by extension 'python'
+[3.565s] Level 1:colcon.colcon_core.package_identification:_identify(driver) by extensions ['python_setup_py']
+[3.565s] Level 1:colcon.colcon_core.package_identification:_identify(driver) by extension 'python_setup_py'
+[3.566s] Level 1:colcon.colcon_core.package_identification:_identify(driver/ActionGroups) by extensions ['ignore', 'ignore_ament_install']
+[3.566s] Level 1:colcon.colcon_core.package_identification:_identify(driver/ActionGroups) by extension 'ignore'
+[3.567s] Level 1:colcon.colcon_core.package_identification:_identify(driver/ActionGroups) by extension 'ignore_ament_install'
+[3.567s] Level 1:colcon.colcon_core.package_identification:_identify(driver/ActionGroups) by extensions ['colcon_pkg']
+[3.567s] Level 1:colcon.colcon_core.package_identification:_identify(driver/ActionGroups) by extension 'colcon_pkg'
+[3.567s] Level 1:colcon.colcon_core.package_identification:_identify(driver/ActionGroups) by extensions ['colcon_meta']
+[3.568s] Level 1:colcon.colcon_core.package_identification:_identify(driver/ActionGroups) by extension 'colcon_meta'
+[3.568s] Level 1:colcon.colcon_core.package_identification:_identify(driver/ActionGroups) by extensions ['ros']
+[3.568s] Level 1:colcon.colcon_core.package_identification:_identify(driver/ActionGroups) by extension 'ros'
+[3.569s] Level 1:colcon.colcon_core.package_identification:_identify(driver/ActionGroups) by extensions ['bazel', 'cmake', 'meson', 'python']
+[3.569s] Level 1:colcon.colcon_core.package_identification:_identify(driver/ActionGroups) by extension 'bazel'
+[3.569s] Level 1:colcon.colcon_core.package_identification:_identify(driver/ActionGroups) by extension 'cmake'
+[3.570s] Level 1:colcon.colcon_core.package_identification:_identify(driver/ActionGroups) by extension 'meson'
+[3.570s] Level 1:colcon.colcon_core.package_identification:_identify(driver/ActionGroups) by extension 'python'
+[3.570s] Level 1:colcon.colcon_core.package_identification:_identify(driver/ActionGroups) by extensions ['python_setup_py']
+[3.571s] Level 1:colcon.colcon_core.package_identification:_identify(driver/ActionGroups) by extension 'python_setup_py'
+[3.571s] Level 1:colcon.colcon_core.package_identification:_identify(driver/HiwonderSDK) by extensions ['ignore', 'ignore_ament_install']
+[3.572s] Level 1:colcon.colcon_core.package_identification:_identify(driver/HiwonderSDK) by extension 'ignore'
+[3.572s] Level 1:colcon.colcon_core.package_identification:_identify(driver/HiwonderSDK) by extension 'ignore_ament_install'
+[3.573s] Level 1:colcon.colcon_core.package_identification:_identify(driver/HiwonderSDK) by extensions ['colcon_pkg']
+[3.573s] Level 1:colcon.colcon_core.package_identification:_identify(driver/HiwonderSDK) by extension 'colcon_pkg'
+[3.573s] Level 1:colcon.colcon_core.package_identification:_identify(driver/HiwonderSDK) by extensions ['colcon_meta']
+[3.573s] Level 1:colcon.colcon_core.package_identification:_identify(driver/HiwonderSDK) by extension 'colcon_meta'
+[3.574s] Level 1:colcon.colcon_core.package_identification:_identify(driver/HiwonderSDK) by extensions ['ros']
+[3.574s] Level 1:colcon.colcon_core.package_identification:_identify(driver/HiwonderSDK) by extension 'ros'
+[3.574s] Level 1:colcon.colcon_core.package_identification:_identify(driver/HiwonderSDK) by extensions ['bazel', 'cmake', 'meson', 'python']
+[3.575s] Level 1:colcon.colcon_core.package_identification:_identify(driver/HiwonderSDK) by extension 'bazel'
+[3.575s] Level 1:colcon.colcon_core.package_identification:_identify(driver/HiwonderSDK) by extension 'cmake'
+[3.575s] Level 1:colcon.colcon_core.package_identification:_identify(driver/HiwonderSDK) by extension 'meson'
+[3.576s] Level 1:colcon.colcon_core.package_identification:_identify(driver/HiwonderSDK) by extension 'python'
+[3.576s] Level 1:colcon.colcon_core.package_identification:_identify(driver/HiwonderSDK) by extensions ['python_setup_py']
+[3.576s] Level 1:colcon.colcon_core.package_identification:_identify(driver/HiwonderSDK) by extension 'python_setup_py'
+[5.498s] DEBUG:colcon.colcon_core.package_identification:Package 'driver/HiwonderSDK' with type 'python' and name 'hiwonder'
+[5.499s] Level 1:colcon.colcon_core.package_identification:_identify(driver/originman_action_editor) by extensions ['ignore', 'ignore_ament_install']
+[5.500s] Level 1:colcon.colcon_core.package_identification:_identify(driver/originman_action_editor) by extension 'ignore'
+[5.500s] Level 1:colcon.colcon_core.package_identification:_identify(driver/originman_action_editor) by extension 'ignore_ament_install'
+[5.501s] Level 1:colcon.colcon_core.package_identification:_identify(driver/originman_action_editor) by extensions ['colcon_pkg']
+[5.501s] Level 1:colcon.colcon_core.package_identification:_identify(driver/originman_action_editor) by extension 'colcon_pkg'
+[5.501s] Level 1:colcon.colcon_core.package_identification:_identify(driver/originman_action_editor) by extensions ['colcon_meta']
+[5.501s] Level 1:colcon.colcon_core.package_identification:_identify(driver/originman_action_editor) by extension 'colcon_meta'
+[5.502s] Level 1:colcon.colcon_core.package_identification:_identify(driver/originman_action_editor) by extensions ['ros']
+[5.502s] Level 1:colcon.colcon_core.package_identification:_identify(driver/originman_action_editor) by extension 'ros'
+[5.502s] Level 1:colcon.colcon_core.package_identification:_identify(driver/originman_action_editor) by extensions ['bazel', 'cmake', 'meson', 'python']
+[5.503s] Level 1:colcon.colcon_core.package_identification:_identify(driver/originman_action_editor) by extension 'bazel'
+[5.503s] Level 1:colcon.colcon_core.package_identification:_identify(driver/originman_action_editor) by extension 'cmake'
+[5.503s] Level 1:colcon.colcon_core.package_identification:_identify(driver/originman_action_editor) by extension 'meson'
+[5.504s] Level 1:colcon.colcon_core.package_identification:_identify(driver/originman_action_editor) by extension 'python'
+[5.504s] Level 1:colcon.colcon_core.package_identification:_identify(driver/originman_action_editor) by extensions ['python_setup_py']
+[5.504s] Level 1:colcon.colcon_core.package_identification:_identify(driver/originman_action_editor) by extension 'python_setup_py'
+[5.505s] Level 1:colcon.colcon_core.package_identification:_identify(driver/originman_action_editor/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[5.505s] Level 1:colcon.colcon_core.package_identification:_identify(driver/originman_action_editor/__pycache__) by extension 'ignore'
+[5.506s] Level 1:colcon.colcon_core.package_identification:_identify(driver/originman_action_editor/__pycache__) by extension 'ignore_ament_install'
+[5.506s] Level 1:colcon.colcon_core.package_identification:_identify(driver/originman_action_editor/__pycache__) by extensions ['colcon_pkg']
+[5.506s] Level 1:colcon.colcon_core.package_identification:_identify(driver/originman_action_editor/__pycache__) by extension 'colcon_pkg'
+[5.506s] Level 1:colcon.colcon_core.package_identification:_identify(driver/originman_action_editor/__pycache__) by extensions ['colcon_meta']
+[5.507s] Level 1:colcon.colcon_core.package_identification:_identify(driver/originman_action_editor/__pycache__) by extension 'colcon_meta'
+[5.507s] Level 1:colcon.colcon_core.package_identification:_identify(driver/originman_action_editor/__pycache__) by extensions ['ros']
+[5.507s] Level 1:colcon.colcon_core.package_identification:_identify(driver/originman_action_editor/__pycache__) by extension 'ros'
+[5.508s] Level 1:colcon.colcon_core.package_identification:_identify(driver/originman_action_editor/__pycache__) by extensions ['bazel', 'cmake', 'meson', 'python']
+[5.508s] Level 1:colcon.colcon_core.package_identification:_identify(driver/originman_action_editor/__pycache__) by extension 'bazel'
+[5.508s] Level 1:colcon.colcon_core.package_identification:_identify(driver/originman_action_editor/__pycache__) by extension 'cmake'
+[5.509s] Level 1:colcon.colcon_core.package_identification:_identify(driver/originman_action_editor/__pycache__) by extension 'meson'
+[5.509s] Level 1:colcon.colcon_core.package_identification:_identify(driver/originman_action_editor/__pycache__) by extension 'python'
+[5.509s] Level 1:colcon.colcon_core.package_identification:_identify(driver/originman_action_editor/__pycache__) by extensions ['python_setup_py']
+[5.509s] Level 1:colcon.colcon_core.package_identification:_identify(driver/originman_action_editor/__pycache__) by extension 'python_setup_py'
+[5.510s] Level 1:colcon.colcon_core.package_identification:_identify(driver/originman_action_editor/images) by extensions ['ignore', 'ignore_ament_install']
+[5.511s] Level 1:colcon.colcon_core.package_identification:_identify(driver/originman_action_editor/images) by extension 'ignore'
+[5.511s] Level 1:colcon.colcon_core.package_identification:_identify(driver/originman_action_editor/images) by extension 'ignore_ament_install'
+[5.511s] Level 1:colcon.colcon_core.package_identification:_identify(driver/originman_action_editor/images) by extensions ['colcon_pkg']
+[5.511s] Level 1:colcon.colcon_core.package_identification:_identify(driver/originman_action_editor/images) by extension 'colcon_pkg'
+[5.512s] Level 1:colcon.colcon_core.package_identification:_identify(driver/originman_action_editor/images) by extensions ['colcon_meta']
+[5.512s] Level 1:colcon.colcon_core.package_identification:_identify(driver/originman_action_editor/images) by extension 'colcon_meta'
+[5.512s] Level 1:colcon.colcon_core.package_identification:_identify(driver/originman_action_editor/images) by extensions ['ros']
+[5.512s] Level 1:colcon.colcon_core.package_identification:_identify(driver/originman_action_editor/images) by extension 'ros'
+[5.513s] Level 1:colcon.colcon_core.package_identification:_identify(driver/originman_action_editor/images) by extensions ['bazel', 'cmake', 'meson', 'python']
+[5.513s] Level 1:colcon.colcon_core.package_identification:_identify(driver/originman_action_editor/images) by extension 'bazel'
+[5.514s] Level 1:colcon.colcon_core.package_identification:_identify(driver/originman_action_editor/images) by extension 'cmake'
+[5.514s] Level 1:colcon.colcon_core.package_identification:_identify(driver/originman_action_editor/images) by extension 'meson'
+[5.514s] Level 1:colcon.colcon_core.package_identification:_identify(driver/originman_action_editor/images) by extension 'python'
+[5.514s] Level 1:colcon.colcon_core.package_identification:_identify(driver/originman_action_editor/images) by extensions ['python_setup_py']
+[5.515s] Level 1:colcon.colcon_core.package_identification:_identify(driver/originman_action_editor/images) by extension 'python_setup_py'
+[5.515s] Level 1:colcon.colcon_core.package_identification:_identify(driver/pre_rdk_install) by extensions ['ignore', 'ignore_ament_install']
+[5.516s] Level 1:colcon.colcon_core.package_identification:_identify(driver/pre_rdk_install) by extension 'ignore'
+[5.516s] Level 1:colcon.colcon_core.package_identification:_identify(driver/pre_rdk_install) by extension 'ignore_ament_install'
+[5.516s] Level 1:colcon.colcon_core.package_identification:_identify(driver/pre_rdk_install) by extensions ['colcon_pkg']
+[5.517s] Level 1:colcon.colcon_core.package_identification:_identify(driver/pre_rdk_install) by extension 'colcon_pkg'
+[5.517s] Level 1:colcon.colcon_core.package_identification:_identify(driver/pre_rdk_install) by extensions ['colcon_meta']
+[5.517s] Level 1:colcon.colcon_core.package_identification:_identify(driver/pre_rdk_install) by extension 'colcon_meta'
+[5.517s] Level 1:colcon.colcon_core.package_identification:_identify(driver/pre_rdk_install) by extensions ['ros']
+[5.518s] Level 1:colcon.colcon_core.package_identification:_identify(driver/pre_rdk_install) by extension 'ros'
+[5.530s] DEBUG:colcon.colcon_core.package_identification:Package 'driver/pre_rdk_install' with type 'ros.ament_cmake' and name 'pre_rdk_install'
+[5.530s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[5.531s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[5.531s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[5.532s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[5.532s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[5.533s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[5.533s] Level 1:colcon.colcon_core.package_identification:_identify(originman_action_imitation) by extensions ['ignore', 'ignore_ament_install']
+[5.534s] Level 1:colcon.colcon_core.package_identification:_identify(originman_action_imitation) by extension 'ignore'
+[5.534s] Level 1:colcon.colcon_core.package_identification:_identify(originman_action_imitation) by extension 'ignore_ament_install'
+[5.534s] Level 1:colcon.colcon_core.package_identification:_identify(originman_action_imitation) by extensions ['colcon_pkg']
+[5.534s] Level 1:colcon.colcon_core.package_identification:_identify(originman_action_imitation) by extension 'colcon_pkg'
+[5.535s] Level 1:colcon.colcon_core.package_identification:_identify(originman_action_imitation) by extensions ['colcon_meta']
+[5.535s] Level 1:colcon.colcon_core.package_identification:_identify(originman_action_imitation) by extension 'colcon_meta'
+[5.535s] Level 1:colcon.colcon_core.package_identification:_identify(originman_action_imitation) by extensions ['ros']
+[5.535s] Level 1:colcon.colcon_core.package_identification:_identify(originman_action_imitation) by extension 'ros'
+[5.540s] DEBUG:colcon.colcon_core.package_identification:Package 'originman_action_imitation' with type 'ros.ament_cmake' and name 'originman_action_imitation'
+[5.541s] Level 1:colcon.colcon_core.package_identification:_identify(originman_apriltag_detect) by extensions ['ignore', 'ignore_ament_install']
+[5.542s] Level 1:colcon.colcon_core.package_identification:_identify(originman_apriltag_detect) by extension 'ignore'
+[5.542s] Level 1:colcon.colcon_core.package_identification:_identify(originman_apriltag_detect) by extension 'ignore_ament_install'
+[5.543s] Level 1:colcon.colcon_core.package_identification:_identify(originman_apriltag_detect) by extensions ['colcon_pkg']
+[5.543s] Level 1:colcon.colcon_core.package_identification:_identify(originman_apriltag_detect) by extension 'colcon_pkg'
+[5.543s] Level 1:colcon.colcon_core.package_identification:_identify(originman_apriltag_detect) by extensions ['colcon_meta']
+[5.543s] Level 1:colcon.colcon_core.package_identification:_identify(originman_apriltag_detect) by extension 'colcon_meta'
+[5.544s] Level 1:colcon.colcon_core.package_identification:_identify(originman_apriltag_detect) by extensions ['ros']
+[5.544s] Level 1:colcon.colcon_core.package_identification:_identify(originman_apriltag_detect) by extension 'ros'
+[5.548s] DEBUG:colcon.colcon_core.package_identification:Package 'originman_apriltag_detect' with type 'ros.ament_python' and name 'originman_apriltag_detect'
+[5.548s] Level 1:colcon.colcon_core.package_identification:_identify(originman_audio_control) by extensions ['ignore', 'ignore_ament_install']
+[5.549s] Level 1:colcon.colcon_core.package_identification:_identify(originman_audio_control) by extension 'ignore'
+[5.549s] Level 1:colcon.colcon_core.package_identification:_identify(originman_audio_control) by extension 'ignore_ament_install'
+[5.550s] Level 1:colcon.colcon_core.package_identification:_identify(originman_audio_control) by extensions ['colcon_pkg']
+[5.550s] Level 1:colcon.colcon_core.package_identification:_identify(originman_audio_control) by extension 'colcon_pkg'
+[5.550s] Level 1:colcon.colcon_core.package_identification:_identify(originman_audio_control) by extensions ['colcon_meta']
+[5.551s] Level 1:colcon.colcon_core.package_identification:_identify(originman_audio_control) by extension 'colcon_meta'
+[5.551s] Level 1:colcon.colcon_core.package_identification:_identify(originman_audio_control) by extensions ['ros']
+[5.551s] Level 1:colcon.colcon_core.package_identification:_identify(originman_audio_control) by extension 'ros'
+[5.556s] DEBUG:colcon.colcon_core.package_identification:Package 'originman_audio_control' with type 'ros.ament_python' and name 'originman_audio_control'
+[5.556s] Level 1:colcon.colcon_core.package_identification:_identify(originman_color_detect) by extensions ['ignore', 'ignore_ament_install']
+[5.557s] Level 1:colcon.colcon_core.package_identification:_identify(originman_color_detect) by extension 'ignore'
+[5.558s] Level 1:colcon.colcon_core.package_identification:_identify(originman_color_detect) by extension 'ignore_ament_install'
+[5.558s] Level 1:colcon.colcon_core.package_identification:_identify(originman_color_detect) by extensions ['colcon_pkg']
+[5.558s] Level 1:colcon.colcon_core.package_identification:_identify(originman_color_detect) by extension 'colcon_pkg'
+[5.559s] Level 1:colcon.colcon_core.package_identification:_identify(originman_color_detect) by extensions ['colcon_meta']
+[5.559s] Level 1:colcon.colcon_core.package_identification:_identify(originman_color_detect) by extension 'colcon_meta'
+[5.559s] Level 1:colcon.colcon_core.package_identification:_identify(originman_color_detect) by extensions ['ros']
+[5.559s] Level 1:colcon.colcon_core.package_identification:_identify(originman_color_detect) by extension 'ros'
+[5.563s] DEBUG:colcon.colcon_core.package_identification:Package 'originman_color_detect' with type 'ros.ament_python' and name 'originman_color_detect'
+[5.564s] Level 1:colcon.colcon_core.package_identification:_identify(originman_demo) by extensions ['ignore', 'ignore_ament_install']
+[5.565s] Level 1:colcon.colcon_core.package_identification:_identify(originman_demo) by extension 'ignore'
+[5.565s] Level 1:colcon.colcon_core.package_identification:_identify(originman_demo) by extension 'ignore_ament_install'
+[5.565s] Level 1:colcon.colcon_core.package_identification:_identify(originman_demo) by extensions ['colcon_pkg']
+[5.566s] Level 1:colcon.colcon_core.package_identification:_identify(originman_demo) by extension 'colcon_pkg'
+[5.566s] Level 1:colcon.colcon_core.package_identification:_identify(originman_demo) by extensions ['colcon_meta']
+[5.566s] Level 1:colcon.colcon_core.package_identification:_identify(originman_demo) by extension 'colcon_meta'
+[5.567s] Level 1:colcon.colcon_core.package_identification:_identify(originman_demo) by extensions ['ros']
+[5.567s] Level 1:colcon.colcon_core.package_identification:_identify(originman_demo) by extension 'ros'
+[5.570s] DEBUG:colcon.colcon_core.package_identification:Package 'originman_demo' with type 'ros.ament_python' and name 'originman_demo'
+[5.571s] Level 1:colcon.colcon_core.package_identification:_identify(originman_kick_ball) by extensions ['ignore', 'ignore_ament_install']
+[5.572s] Level 1:colcon.colcon_core.package_identification:_identify(originman_kick_ball) by extension 'ignore'
+[5.572s] Level 1:colcon.colcon_core.package_identification:_identify(originman_kick_ball) by extension 'ignore_ament_install'
+[5.572s] Level 1:colcon.colcon_core.package_identification:_identify(originman_kick_ball) by extensions ['colcon_pkg']
+[5.573s] Level 1:colcon.colcon_core.package_identification:_identify(originman_kick_ball) by extension 'colcon_pkg'
+[5.573s] Level 1:colcon.colcon_core.package_identification:_identify(originman_kick_ball) by extensions ['colcon_meta']
+[5.573s] Level 1:colcon.colcon_core.package_identification:_identify(originman_kick_ball) by extension 'colcon_meta'
+[5.574s] Level 1:colcon.colcon_core.package_identification:_identify(originman_kick_ball) by extensions ['ros']
+[5.574s] Level 1:colcon.colcon_core.package_identification:_identify(originman_kick_ball) by extension 'ros'
+[5.578s] DEBUG:colcon.colcon_core.package_identification:Package 'originman_kick_ball' with type 'ros.ament_python' and name 'originman_kick_ball'
+[5.579s] Level 1:colcon.colcon_core.package_identification:_identify(originman_line_follower) by extensions ['ignore', 'ignore_ament_install']
+[5.579s] Level 1:colcon.colcon_core.package_identification:_identify(originman_line_follower) by extension 'ignore'
+[5.580s] Level 1:colcon.colcon_core.package_identification:_identify(originman_line_follower) by extension 'ignore_ament_install'
+[5.580s] Level 1:colcon.colcon_core.package_identification:_identify(originman_line_follower) by extensions ['colcon_pkg']
+[5.580s] Level 1:colcon.colcon_core.package_identification:_identify(originman_line_follower) by extension 'colcon_pkg'
+[5.581s] Level 1:colcon.colcon_core.package_identification:_identify(originman_line_follower) by extensions ['colcon_meta']
+[5.581s] Level 1:colcon.colcon_core.package_identification:_identify(originman_line_follower) by extension 'colcon_meta'
+[5.581s] Level 1:colcon.colcon_core.package_identification:_identify(originman_line_follower) by extensions ['ros']
+[5.581s] Level 1:colcon.colcon_core.package_identification:_identify(originman_line_follower) by extension 'ros'
+[5.586s] DEBUG:colcon.colcon_core.package_identification:Package 'originman_line_follower' with type 'ros.ament_python' and name 'originman_line_follower'
+[5.587s] Level 1:colcon.colcon_core.package_identification:_identify(originman_llm_chat) by extensions ['ignore', 'ignore_ament_install']
+[5.587s] Level 1:colcon.colcon_core.package_identification:_identify(originman_llm_chat) by extension 'ignore'
+[5.588s] Level 1:colcon.colcon_core.package_identification:_identify(originman_llm_chat) by extension 'ignore_ament_install'
+[5.588s] Level 1:colcon.colcon_core.package_identification:_identify(originman_llm_chat) by extensions ['colcon_pkg']
+[5.588s] Level 1:colcon.colcon_core.package_identification:_identify(originman_llm_chat) by extension 'colcon_pkg'
+[5.589s] Level 1:colcon.colcon_core.package_identification:_identify(originman_llm_chat) by extensions ['colcon_meta']
+[5.589s] Level 1:colcon.colcon_core.package_identification:_identify(originman_llm_chat) by extension 'colcon_meta'
+[5.589s] Level 1:colcon.colcon_core.package_identification:_identify(originman_llm_chat) by extensions ['ros']
+[5.589s] Level 1:colcon.colcon_core.package_identification:_identify(originman_llm_chat) by extension 'ros'
+[5.594s] DEBUG:colcon.colcon_core.package_identification:Package 'originman_llm_chat' with type 'ros.ament_python' and name 'originman_llm_chat'
+[5.595s] Level 1:colcon.colcon_core.package_identification:_identify(originman_pydemo) by extensions ['ignore', 'ignore_ament_install']
+[5.596s] Level 1:colcon.colcon_core.package_identification:_identify(originman_pydemo) by extension 'ignore'
+[5.596s] Level 1:colcon.colcon_core.package_identification:_identify(originman_pydemo) by extension 'ignore_ament_install'
+[5.597s] Level 1:colcon.colcon_core.package_identification:_identify(originman_pydemo) by extensions ['colcon_pkg']
+[5.597s] Level 1:colcon.colcon_core.package_identification:_identify(originman_pydemo) by extension 'colcon_pkg'
+[5.597s] Level 1:colcon.colcon_core.package_identification:_identify(originman_pydemo) by extensions ['colcon_meta']
+[5.597s] Level 1:colcon.colcon_core.package_identification:_identify(originman_pydemo) by extension 'colcon_meta'
+[5.598s] Level 1:colcon.colcon_core.package_identification:_identify(originman_pydemo) by extensions ['ros']
+[5.598s] Level 1:colcon.colcon_core.package_identification:_identify(originman_pydemo) by extension 'ros'
+[5.598s] Level 1:colcon.colcon_core.package_identification:_identify(originman_pydemo) by extensions ['bazel', 'cmake', 'meson', 'python']
+[5.599s] Level 1:colcon.colcon_core.package_identification:_identify(originman_pydemo) by extension 'bazel'
+[5.599s] Level 1:colcon.colcon_core.package_identification:_identify(originman_pydemo) by extension 'cmake'
+[5.599s] Level 1:colcon.colcon_core.package_identification:_identify(originman_pydemo) by extension 'meson'
+[5.599s] Level 1:colcon.colcon_core.package_identification:_identify(originman_pydemo) by extension 'python'
+[5.600s] Level 1:colcon.colcon_core.package_identification:_identify(originman_pydemo) by extensions ['python_setup_py']
+[5.600s] Level 1:colcon.colcon_core.package_identification:_identify(originman_pydemo) by extension 'python_setup_py'
+[5.601s] Level 1:colcon.colcon_core.package_identification:_identify(originman_pydemo/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[5.601s] Level 1:colcon.colcon_core.package_identification:_identify(originman_pydemo/__pycache__) by extension 'ignore'
+[5.601s] Level 1:colcon.colcon_core.package_identification:_identify(originman_pydemo/__pycache__) by extension 'ignore_ament_install'
+[5.602s] Level 1:colcon.colcon_core.package_identification:_identify(originman_pydemo/__pycache__) by extensions ['colcon_pkg']
+[5.602s] Level 1:colcon.colcon_core.package_identification:_identify(originman_pydemo/__pycache__) by extension 'colcon_pkg'
+[5.602s] Level 1:colcon.colcon_core.package_identification:_identify(originman_pydemo/__pycache__) by extensions ['colcon_meta']
+[5.602s] Level 1:colcon.colcon_core.package_identification:_identify(originman_pydemo/__pycache__) by extension 'colcon_meta'
+[5.603s] Level 1:colcon.colcon_core.package_identification:_identify(originman_pydemo/__pycache__) by extensions ['ros']
+[5.603s] Level 1:colcon.colcon_core.package_identification:_identify(originman_pydemo/__pycache__) by extension 'ros'
+[5.603s] Level 1:colcon.colcon_core.package_identification:_identify(originman_pydemo/__pycache__) by extensions ['bazel', 'cmake', 'meson', 'python']
+[5.604s] Level 1:colcon.colcon_core.package_identification:_identify(originman_pydemo/__pycache__) by extension 'bazel'
+[5.604s] Level 1:colcon.colcon_core.package_identification:_identify(originman_pydemo/__pycache__) by extension 'cmake'
+[5.604s] Level 1:colcon.colcon_core.package_identification:_identify(originman_pydemo/__pycache__) by extension 'meson'
+[5.605s] Level 1:colcon.colcon_core.package_identification:_identify(originman_pydemo/__pycache__) by extension 'python'
+[5.605s] Level 1:colcon.colcon_core.package_identification:_identify(originman_pydemo/__pycache__) by extensions ['python_setup_py']
+[5.605s] Level 1:colcon.colcon_core.package_identification:_identify(originman_pydemo/__pycache__) by extension 'python_setup_py'
+[5.606s] Level 1:colcon.colcon_core.package_identification:_identify(originman_pydemo/audio) by extensions ['ignore', 'ignore_ament_install']
+[5.606s] Level 1:colcon.colcon_core.package_identification:_identify(originman_pydemo/audio) by extension 'ignore'
+[5.607s] Level 1:colcon.colcon_core.package_identification:_identify(originman_pydemo/audio) by extension 'ignore_ament_install'
+[5.607s] Level 1:colcon.colcon_core.package_identification:_identify(originman_pydemo/audio) by extensions ['colcon_pkg']
+[5.607s] Level 1:colcon.colcon_core.package_identification:_identify(originman_pydemo/audio) by extension 'colcon_pkg'
+[5.608s] Level 1:colcon.colcon_core.package_identification:_identify(originman_pydemo/audio) by extensions ['colcon_meta']
+[5.608s] Level 1:colcon.colcon_core.package_identification:_identify(originman_pydemo/audio) by extension 'colcon_meta'
+[5.608s] Level 1:colcon.colcon_core.package_identification:_identify(originman_pydemo/audio) by extensions ['ros']
+[5.608s] Level 1:colcon.colcon_core.package_identification:_identify(originman_pydemo/audio) by extension 'ros'
+[5.609s] Level 1:colcon.colcon_core.package_identification:_identify(originman_pydemo/audio) by extensions ['bazel', 'cmake', 'meson', 'python']
+[5.609s] Level 1:colcon.colcon_core.package_identification:_identify(originman_pydemo/audio) by extension 'bazel'
+[5.609s] Level 1:colcon.colcon_core.package_identification:_identify(originman_pydemo/audio) by extension 'cmake'
+[5.610s] Level 1:colcon.colcon_core.package_identification:_identify(originman_pydemo/audio) by extension 'meson'
+[5.610s] Level 1:colcon.colcon_core.package_identification:_identify(originman_pydemo/audio) by extension 'python'
+[5.610s] Level 1:colcon.colcon_core.package_identification:_identify(originman_pydemo/audio) by extensions ['python_setup_py']
+[5.610s] Level 1:colcon.colcon_core.package_identification:_identify(originman_pydemo/audio) by extension 'python_setup_py'
+[5.611s] Level 1:colcon.colcon_core.package_identification:_identify(originman_teleop_keyboard) by extensions ['ignore', 'ignore_ament_install']
+[5.612s] Level 1:colcon.colcon_core.package_identification:_identify(originman_teleop_keyboard) by extension 'ignore'
+[5.612s] Level 1:colcon.colcon_core.package_identification:_identify(originman_teleop_keyboard) by extension 'ignore_ament_install'
+[5.612s] Level 1:colcon.colcon_core.package_identification:_identify(originman_teleop_keyboard) by extensions ['colcon_pkg']
+[5.612s] Level 1:colcon.colcon_core.package_identification:_identify(originman_teleop_keyboard) by extension 'colcon_pkg'
+[5.613s] Level 1:colcon.colcon_core.package_identification:_identify(originman_teleop_keyboard) by extensions ['colcon_meta']
+[5.613s] Level 1:colcon.colcon_core.package_identification:_identify(originman_teleop_keyboard) by extension 'colcon_meta'
+[5.613s] Level 1:colcon.colcon_core.package_identification:_identify(originman_teleop_keyboard) by extensions ['ros']
+[5.613s] Level 1:colcon.colcon_core.package_identification:_identify(originman_teleop_keyboard) by extension 'ros'
+[5.618s] DEBUG:colcon.colcon_core.package_identification:Package 'originman_teleop_keyboard' with type 'ros.ament_python' and name 'originman_teleop_keyboard'
+[5.618s] Level 1:colcon.colcon_core.package_identification:_identify(originman_transport_lab) by extensions ['ignore', 'ignore_ament_install']
+[5.619s] Level 1:colcon.colcon_core.package_identification:_identify(originman_transport_lab) by extension 'ignore'
+[5.619s] Level 1:colcon.colcon_core.package_identification:_identify(originman_transport_lab) by extension 'ignore_ament_install'
+[5.620s] Level 1:colcon.colcon_core.package_identification:_identify(originman_transport_lab) by extensions ['colcon_pkg']
+[5.620s] Level 1:colcon.colcon_core.package_identification:_identify(originman_transport_lab) by extension 'colcon_pkg'
+[5.620s] Level 1:colcon.colcon_core.package_identification:_identify(originman_transport_lab) by extensions ['colcon_meta']
+[5.621s] Level 1:colcon.colcon_core.package_identification:_identify(originman_transport_lab) by extension 'colcon_meta'
+[5.621s] Level 1:colcon.colcon_core.package_identification:_identify(originman_transport_lab) by extensions ['ros']
+[5.621s] Level 1:colcon.colcon_core.package_identification:_identify(originman_transport_lab) by extension 'ros'
+[5.625s] DEBUG:colcon.colcon_core.package_identification:Package 'originman_transport_lab' with type 'ros.ament_python' and name 'originman_transport_lab'
+[5.626s] Level 1:colcon.colcon_core.package_identification:_identify(voice_kick_ball) by extensions ['ignore', 'ignore_ament_install']
+[5.627s] Level 1:colcon.colcon_core.package_identification:_identify(voice_kick_ball) by extension 'ignore'
+[5.627s] Level 1:colcon.colcon_core.package_identification:_identify(voice_kick_ball) by extension 'ignore_ament_install'
+[5.628s] Level 1:colcon.colcon_core.package_identification:_identify(voice_kick_ball) by extensions ['colcon_pkg']
+[5.628s] Level 1:colcon.colcon_core.package_identification:_identify(voice_kick_ball) by extension 'colcon_pkg'
+[5.628s] Level 1:colcon.colcon_core.package_identification:_identify(voice_kick_ball) by extensions ['colcon_meta']
+[5.628s] Level 1:colcon.colcon_core.package_identification:_identify(voice_kick_ball) by extension 'colcon_meta'
+[5.629s] Level 1:colcon.colcon_core.package_identification:_identify(voice_kick_ball) by extensions ['ros']
+[5.629s] Level 1:colcon.colcon_core.package_identification:_identify(voice_kick_ball) by extension 'ros'
+[5.634s] DEBUG:colcon.colcon_core.package_identification:Package 'voice_kick_ball' with type 'ros.ament_python' and name 'voice_kick_ball'
+[5.635s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[5.635s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[5.635s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[5.635s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[5.635s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[5.762s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'hiwonder' in 'driver/HiwonderSDK'
+[5.762s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'originman_action_imitation' in 'originman_action_imitation'
+[5.762s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'originman_apriltag_detect' in 'originman_apriltag_detect'
+[5.763s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'originman_audio_control' in 'originman_audio_control'
+[5.763s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'originman_color_detect' in 'originman_color_detect'
+[5.763s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'originman_demo' in 'originman_demo'
+[5.763s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'originman_line_follower' in 'originman_line_follower'
+[5.763s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'originman_llm_chat' in 'originman_llm_chat'
+[5.764s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'originman_teleop_keyboard' in 'originman_teleop_keyboard'
+[5.764s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'originman_transport_lab' in 'originman_transport_lab'
+[5.764s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'pre_rdk_install' in 'driver/pre_rdk_install'
+[5.767s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[5.767s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[5.792s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /userdata/dev_ws/src/originman/install
+[5.794s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /userdata/dev_ws/src/originman/voice_kick_ball/install
+[5.799s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /root/colcon_ws/install
+[5.806s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 20 installed packages in /userdata/dev_ws/install
+[5.811s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 54 installed packages in /opt/tros/humble
+[5.822s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 187 installed packages in /opt/ros/humble
+[5.831s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[6.132s] Level 5:colcon.colcon_core.verb:set package 'originman_kick_ball' build argument 'bazel_args' from command line to 'None'
+[6.133s] Level 5:colcon.colcon_core.verb:set package 'originman_kick_ball' build argument 'bazel_task' from command line to 'None'
+[6.133s] Level 5:colcon.colcon_core.verb:set package 'originman_kick_ball' build argument 'cmake_args' from command line to 'None'
+[6.134s] Level 5:colcon.colcon_core.verb:set package 'originman_kick_ball' build argument 'cmake_target' from command line to 'None'
+[6.134s] Level 5:colcon.colcon_core.verb:set package 'originman_kick_ball' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.134s] Level 5:colcon.colcon_core.verb:set package 'originman_kick_ball' build argument 'cmake_clean_cache' from command line to 'False'
+[6.134s] Level 5:colcon.colcon_core.verb:set package 'originman_kick_ball' build argument 'cmake_clean_first' from command line to 'False'
+[6.134s] Level 5:colcon.colcon_core.verb:set package 'originman_kick_ball' build argument 'cmake_force_configure' from command line to 'False'
+[6.135s] Level 5:colcon.colcon_core.verb:set package 'originman_kick_ball' build argument 'meson_args' from command line to '[]'
+[6.135s] Level 5:colcon.colcon_core.verb:set package 'originman_kick_ball' build argument 'ament_cmake_args' from command line to 'None'
+[6.135s] Level 5:colcon.colcon_core.verb:set package 'originman_kick_ball' build argument 'catkin_cmake_args' from command line to 'None'
+[6.135s] Level 5:colcon.colcon_core.verb:set package 'originman_kick_ball' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.136s] DEBUG:colcon.colcon_core.verb:Building package 'originman_kick_ball' with the following arguments: {'ament_cmake_args': None, 'bazel_args': None, 'bazel_task': None, 'build_base': '/userdata/dev_ws/src/originman/build/originman_kick_ball', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/userdata/dev_ws/src/originman/install/originman_kick_ball', 'merge_install': False, 'meson_args': [], 'path': '/userdata/dev_ws/src/originman/originman_kick_ball', 'symlink_install': False, 'test_result_base': None}
+[6.218s] Level 5:colcon.colcon_core.verb:set package 'voice_kick_ball' build argument 'bazel_args' from command line to 'None'
+[6.218s] Level 5:colcon.colcon_core.verb:set package 'voice_kick_ball' build argument 'bazel_task' from command line to 'None'
+[6.219s] Level 5:colcon.colcon_core.verb:set package 'voice_kick_ball' build argument 'cmake_args' from command line to 'None'
+[6.219s] Level 5:colcon.colcon_core.verb:set package 'voice_kick_ball' build argument 'cmake_target' from command line to 'None'
+[6.219s] Level 5:colcon.colcon_core.verb:set package 'voice_kick_ball' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.219s] Level 5:colcon.colcon_core.verb:set package 'voice_kick_ball' build argument 'cmake_clean_cache' from command line to 'False'
+[6.219s] Level 5:colcon.colcon_core.verb:set package 'voice_kick_ball' build argument 'cmake_clean_first' from command line to 'False'
+[6.220s] Level 5:colcon.colcon_core.verb:set package 'voice_kick_ball' build argument 'cmake_force_configure' from command line to 'False'
+[6.220s] Level 5:colcon.colcon_core.verb:set package 'voice_kick_ball' build argument 'meson_args' from command line to '[]'
+[6.220s] Level 5:colcon.colcon_core.verb:set package 'voice_kick_ball' build argument 'ament_cmake_args' from command line to 'None'
+[6.220s] Level 5:colcon.colcon_core.verb:set package 'voice_kick_ball' build argument 'catkin_cmake_args' from command line to 'None'
+[6.220s] Level 5:colcon.colcon_core.verb:set package 'voice_kick_ball' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.221s] DEBUG:colcon.colcon_core.verb:Building package 'voice_kick_ball' with the following arguments: {'ament_cmake_args': None, 'bazel_args': None, 'bazel_task': None, 'build_base': '/userdata/dev_ws/src/originman/build/voice_kick_ball', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/userdata/dev_ws/src/originman/install/voice_kick_ball', 'merge_install': False, 'meson_args': [], 'path': '/userdata/dev_ws/src/originman/voice_kick_ball', 'symlink_install': False, 'test_result_base': None}
+[6.222s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[6.228s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[6.229s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/userdata/dev_ws/src/originman/originman_kick_ball' with build type 'ament_python'
+[6.230s] Level 1:colcon.colcon_core.shell:create_environment_hook('originman_kick_ball', 'ament_prefix_path')
+[6.251s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[6.253s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/dev_ws/src/originman/install/originman_kick_ball/share/originman_kick_ball/hook/ament_prefix_path.ps1'
+[6.258s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/userdata/dev_ws/src/originman/install/originman_kick_ball/share/originman_kick_ball/hook/ament_prefix_path.dsv'
+[6.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/dev_ws/src/originman/install/originman_kick_ball/share/originman_kick_ball/hook/ament_prefix_path.sh'
+[6.266s] DEBUG:colcon.colcon_ros_domain_id_coordinator.shell.ros_domain_id:Allocated ROS_DOMAIN_ID=61 for '/userdata/dev_ws/src/originman/build/originman_kick_ball'
+[6.267s] INFO:colcon.colcon_core.shell:Skip shell extension 'ros_domain_id' for command environment: 
+[6.267s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.268s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.302s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/userdata/dev_ws/src/originman/voice_kick_ball' with build type 'ament_python'
+[6.303s] Level 1:colcon.colcon_core.shell:create_environment_hook('voice_kick_ball', 'ament_prefix_path')
+[6.305s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/dev_ws/src/originman/install/voice_kick_ball/share/voice_kick_ball/hook/ament_prefix_path.ps1'
+[6.312s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/userdata/dev_ws/src/originman/install/voice_kick_ball/share/voice_kick_ball/hook/ament_prefix_path.dsv'
+[6.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/dev_ws/src/originman/install/voice_kick_ball/share/voice_kick_ball/hook/ament_prefix_path.sh'
+[6.318s] DEBUG:colcon.colcon_ros_domain_id_coordinator.shell.ros_domain_id:Allocated ROS_DOMAIN_ID=41 for '/userdata/dev_ws/src/originman/build/voice_kick_ball'
+[6.318s] INFO:colcon.colcon_core.shell:Skip shell extension 'ros_domain_id' for command environment: 
+[6.319s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.319s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.507s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/userdata/dev_ws/src/originman/originman_kick_ball'
+[8.510s] DEBUG:colcon.colcon_ros_domain_id_coordinator.shell.ros_domain_id:Allocated ROS_DOMAIN_ID=61 for '/userdata/dev_ws/src/originman/build/originman_kick_ball'
+[8.510s] INFO:colcon.colcon_core.shell:Skip shell extension 'ros_domain_id' for command environment: 
+[8.511s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.511s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.857s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/userdata/dev_ws/src/originman/voice_kick_ball'
+[10.859s] DEBUG:colcon.colcon_ros_domain_id_coordinator.shell.ros_domain_id:Allocated ROS_DOMAIN_ID=41 for '/userdata/dev_ws/src/originman/build/voice_kick_ball'
+[10.860s] INFO:colcon.colcon_core.shell:Skip shell extension 'ros_domain_id' for command environment: 
+[10.860s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.860s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.483s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/userdata/dev_ws/src/originman/originman_kick_ball': PYTHONPATH=/userdata/dev_ws/src/originman/build/originman_kick_ball/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/dev_ws/src/originman/install/originman_kick_ball/lib/python3.10/site-packages:${PYTHONPATH} ROS_DOMAIN_ID=61 /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/originman_kick_ball build --build-base /userdata/dev_ws/src/originman/build/originman_kick_ball/build install --record /userdata/dev_ws/src/originman/build/originman_kick_ball/install.log --single-version-externally-managed install_data
+[13.710s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/userdata/dev_ws/src/originman/voice_kick_ball': PYTHONPATH=/userdata/dev_ws/src/originman/build/voice_kick_ball/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/dev_ws/src/originman/install/voice_kick_ball/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/voice_kick_ball build --build-base /userdata/dev_ws/src/originman/build/voice_kick_ball/build install --record /userdata/dev_ws/src/originman/build/voice_kick_ball/install.log --single-version-externally-managed install_data
+[16.397s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/userdata/dev_ws/src/originman/originman_kick_ball' returned '0': PYTHONPATH=/userdata/dev_ws/src/originman/build/originman_kick_ball/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/dev_ws/src/originman/install/originman_kick_ball/lib/python3.10/site-packages:${PYTHONPATH} ROS_DOMAIN_ID=61 /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/originman_kick_ball build --build-base /userdata/dev_ws/src/originman/build/originman_kick_ball/build install --record /userdata/dev_ws/src/originman/build/originman_kick_ball/install.log --single-version-externally-managed install_data
+[16.427s] Level 1:colcon.colcon_core.environment:checking '/userdata/dev_ws/src/originman/install/originman_kick_ball' for CMake module files
+[16.434s] Level 1:colcon.colcon_core.environment:checking '/userdata/dev_ws/src/originman/install/originman_kick_ball' for CMake config files
+[16.442s] Level 1:colcon.colcon_core.environment:checking '/userdata/dev_ws/src/originman/install/originman_kick_ball/lib'
+[16.444s] Level 1:colcon.colcon_core.environment:checking '/userdata/dev_ws/src/originman/install/originman_kick_ball/bin'
+[16.445s] Level 1:colcon.colcon_core.environment:checking '/userdata/dev_ws/src/originman/install/originman_kick_ball/lib/pkgconfig/originman_kick_ball.pc'
+[16.448s] Level 1:colcon.colcon_core.environment:checking '/userdata/dev_ws/src/originman/install/originman_kick_ball/lib/python3.10/site-packages'
+[16.449s] Level 1:colcon.colcon_core.shell:create_environment_hook('originman_kick_ball', 'pythonpath')
+[16.452s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/dev_ws/src/originman/install/originman_kick_ball/share/originman_kick_ball/hook/pythonpath.ps1'
+[16.457s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/userdata/dev_ws/src/originman/install/originman_kick_ball/share/originman_kick_ball/hook/pythonpath.dsv'
+[16.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/dev_ws/src/originman/install/originman_kick_ball/share/originman_kick_ball/hook/pythonpath.sh'
+[16.465s] Level 1:colcon.colcon_core.environment:checking '/userdata/dev_ws/src/originman/install/originman_kick_ball/bin'
+[16.465s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(originman_kick_ball)
+[16.468s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/dev_ws/src/originman/install/originman_kick_ball/share/originman_kick_ball/package.ps1'
+[16.475s] INFO:colcon.colcon_core.shell:Creating package descriptor '/userdata/dev_ws/src/originman/install/originman_kick_ball/share/originman_kick_ball/package.dsv'
+[16.479s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/dev_ws/src/originman/install/originman_kick_ball/share/originman_kick_ball/package.sh'
+[16.484s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/dev_ws/src/originman/install/originman_kick_ball/share/originman_kick_ball/package.bash'
+[16.490s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/dev_ws/src/originman/install/originman_kick_ball/share/originman_kick_ball/package.zsh'
+[16.495s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/userdata/dev_ws/src/originman/install/originman_kick_ball/share/colcon-core/packages/originman_kick_ball)
+[16.498s] DEBUG:colcon.colcon_ros_domain_id_coordinator.shell.ros_domain_id:Released ROS_DOMAIN_ID=61 for '/userdata/dev_ws/src/originman/build/originman_kick_ball'
+[16.502s] Level 1:colcon.colcon_core.environment:checking '/userdata/dev_ws/src/originman/install/voice_kick_ball' for CMake module files
+[16.506s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/userdata/dev_ws/src/originman/voice_kick_ball' returned '0': PYTHONPATH=/userdata/dev_ws/src/originman/build/voice_kick_ball/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/dev_ws/src/originman/install/voice_kick_ball/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/voice_kick_ball build --build-base /userdata/dev_ws/src/originman/build/voice_kick_ball/build install --record /userdata/dev_ws/src/originman/build/voice_kick_ball/install.log --single-version-externally-managed install_data
+[16.508s] Level 1:colcon.colcon_core.environment:checking '/userdata/dev_ws/src/originman/install/voice_kick_ball' for CMake config files
+[16.518s] Level 1:colcon.colcon_core.environment:checking '/userdata/dev_ws/src/originman/install/voice_kick_ball/lib'
+[16.519s] Level 1:colcon.colcon_core.environment:checking '/userdata/dev_ws/src/originman/install/voice_kick_ball/bin'
+[16.519s] Level 1:colcon.colcon_core.environment:checking '/userdata/dev_ws/src/originman/install/voice_kick_ball/lib/pkgconfig/voice_kick_ball.pc'
+[16.521s] Level 1:colcon.colcon_core.environment:checking '/userdata/dev_ws/src/originman/install/voice_kick_ball/lib/python3.10/site-packages'
+[16.521s] Level 1:colcon.colcon_core.shell:create_environment_hook('voice_kick_ball', 'pythonpath')
+[16.523s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/dev_ws/src/originman/install/voice_kick_ball/share/voice_kick_ball/hook/pythonpath.ps1'
+[16.526s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/userdata/dev_ws/src/originman/install/voice_kick_ball/share/voice_kick_ball/hook/pythonpath.dsv'
+[16.529s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/dev_ws/src/originman/install/voice_kick_ball/share/voice_kick_ball/hook/pythonpath.sh'
+[16.533s] Level 1:colcon.colcon_core.environment:checking '/userdata/dev_ws/src/originman/install/voice_kick_ball/bin'
+[16.533s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(voice_kick_ball)
+[16.536s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/dev_ws/src/originman/install/voice_kick_ball/share/voice_kick_ball/package.ps1'
+[16.540s] INFO:colcon.colcon_core.shell:Creating package descriptor '/userdata/dev_ws/src/originman/install/voice_kick_ball/share/voice_kick_ball/package.dsv'
+[16.543s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/dev_ws/src/originman/install/voice_kick_ball/share/voice_kick_ball/package.sh'
+[16.546s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/dev_ws/src/originman/install/voice_kick_ball/share/voice_kick_ball/package.bash'
+[16.549s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/dev_ws/src/originman/install/voice_kick_ball/share/voice_kick_ball/package.zsh'
+[16.551s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/userdata/dev_ws/src/originman/install/voice_kick_ball/share/colcon-core/packages/voice_kick_ball)
+[16.553s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[16.553s] DEBUG:colcon.colcon_ros_domain_id_coordinator.shell.ros_domain_id:Released ROS_DOMAIN_ID=41 for '/userdata/dev_ws/src/originman/build/voice_kick_ball'
+[16.554s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[16.555s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[16.555s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[16.592s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[16.592s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[16.593s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[16.593s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[16.594s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[16.594s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[16.596s] INFO:colcon.colcon_core.shell:Creating prefix script '/userdata/dev_ws/src/originman/install/local_setup.ps1'
+[16.603s] INFO:colcon.colcon_core.shell:Creating prefix util module '/userdata/dev_ws/src/originman/install/_local_setup_util_ps1.py'
+[16.614s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/userdata/dev_ws/src/originman/install/setup.ps1'
+[16.643s] INFO:colcon.colcon_core.shell:Creating prefix script '/userdata/dev_ws/src/originman/install/local_setup.sh'
+[16.647s] INFO:colcon.colcon_core.shell:Creating prefix util module '/userdata/dev_ws/src/originman/install/_local_setup_util_sh.py'
+[16.652s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/userdata/dev_ws/src/originman/install/setup.sh'
+[16.665s] INFO:colcon.colcon_core.shell:Creating prefix script '/userdata/dev_ws/src/originman/install/local_setup.bash'
+[16.668s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/userdata/dev_ws/src/originman/install/setup.bash'
+[16.680s] INFO:colcon.colcon_core.shell:Creating prefix script '/userdata/dev_ws/src/originman/install/local_setup.zsh'
+[16.683s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/userdata/dev_ws/src/originman/install/setup.zsh'
+[16.696s] INFO:colcon.colcon_core.shell:Creating '/userdata/dev_ws/src/originman/install/spawn_shell.bash'
